@@ -1,11 +1,242 @@
-Converted from hmtl to md https://domchristie.github.io/to-markdown/
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-<style type="text/css">.style2 { background-color: #F5F5F5; } #content .inner { margin: 10px 20px 10px 40px; } .style3 { font-size: x-small; }</style>
+- [<a name="WorldWideTelescopeUserGuide">WorldWide Telescope User Guide</a>](#a-nameworldwidetelescopeuserguideworldwide-telescope-user-guidea)
+  - [<a name="Support">Support</a>](#a-namesupportsupporta)
+      - [See Also](#see-also)
+  - [<a name="ScreenLayout">Screen Layout</a>](#a-namescreenlayoutscreen-layouta)
+    - [<a name="TheTopPanel">The Top Panel</a>](#a-namethetoppanelthe-top-panela)
+      - [See Also](#see-also-1)
+    - [<a name="TheView">The View</a>](#a-nametheviewthe-viewa)
+      - [See Also](#see-also-2)
+    - [<a name="TheLowerPanel">The Lower Panel</a>](#a-namethelowerpanelthe-lower-panela)
+      - [See Also](#see-also-3)
+    - [<a name="TheLayerManager">The Layer Manager</a>](#a-namethelayermanagerthe-layer-managera)
+      - [Layer Manager Nodes](#layer-manager-nodes)
+      - [See Also](#see-also-4)
+  - [<a name="Exploring">Exploring</a>](#a-nameexploringexploringa)
+      - [See Also](#see-also-5)
+    - [<a name="ExploreEarth">Earth</a>](#a-nameexploreeartheartha)
+      - [See Also](#see-also-6)
+    - [<a name="EarthTutorials">Earth Tutorials</a>](#a-nameearthtutorialsearth-tutorialsa)
+      - [See Also](#see-also-7)
+      - [<a name="TutorialComparingNightandDay">Tutorial: Comparing Night and Day</a>](#a-nametutorialcomparingnightanddaytutorial-comparing-night-and-daya)
+      - [See Also](#see-also-8)
+    - [<a name="ExplorePlanet">Planet</a>](#a-nameexploreplanetplaneta)
+    - [<a name="PlanetTutorials">Planet Tutorials</a>](#a-nameplanettutorialsplanet-tutorialsa)
+      - [See Also](#see-also-9)
+      - [<a name="TutorialLocatingOlympusMons">Tutorial: Locating Olympus Mons</a>](#a-nametutoriallocatingolympusmonstutorial-locating-olympus-monsa)
+      - [See Also](#see-also-10)
+      - [<a name="TutorialComparingSurfaceFeaturesoftheSolarSystem">Tutorial: Comparing Surface Features of the Solar System</a>](#a-nametutorialcomparingsurfacefeaturesofthesolarsystemtutorial-comparing-surface-features-of-the-solar-systema)
+        - [Demo Name](#demo-name)
+        - [Description](#description)
+        - [Link](#link)
+      - [See Also](#see-also-11)
+    - [<a name="ExploreSky">Sky</a>](#a-nameexploreskyskya)
+      - [See Also](#see-also-12)
+    - [<a name="SkyTutorials">Sky Tutorials</a>](#a-nameskytutorialssky-tutorialsa)
+      - [See Also](#see-also-13)
+      - [<a name="TutorialTrackingaConjunction">Tutorial: Tracking a Conjunction</a>](#a-nametutorialtrackingaconjunctiontutorial-tracking-a-conjunctiona)
+      - [See Also](#see-also-14)
+      - [<a name="TutorialVisitingtheNeighbors">Tutorial: Visiting the Neighbors</a>](#a-nametutorialvisitingtheneighborstutorial-visiting-the-neighborsa)
+        - [Demo Name](#demo-name-1)
+        - [Description](#description-1)
+        - [Link](#link-1)
+      - [See Also](#see-also-15)
+      - [<a name="TutorialTheSkyTonight">Tutorial: The Sky Tonight</a>](#a-nametutorialtheskytonighttutorial-the-sky-tonighta)
+          - [<a name="NorthernHemisphere">Northern Hemisphere</a>](#a-namenorthernhemispherenorthern-hemispherea)
+          - [<a name="SouthernHemisphere">Southern Hemisphere</a>](#a-namesouthernhemispheresouthern-hemispherea)
+      - [See Also](#see-also-16)
+      - [<a name="TutorialAstronomyTutorial">Tutorial: Astronomy Terminology</a>](#a-nametutorialastronomytutorialtutorial-astronomy-terminologya)
+      - [See Also](#see-also-17)
+    - [<a name="ExplorePanorama">Panorama</a>](#a-nameexplorepanoramapanoramaa)
+      - [See Also](#see-also-18)
+    - [<a name="PanoramaTutorials">Panorama Tutorials</a>](#a-namepanoramatutorialspanorama-tutorialsa)
+      - [See Also](#see-also-19)
+      - [<a name="TutorialComparingStylesofPanorama">Tutorial: Comparing Styles of Panorama</a>](#a-nametutorialcomparingstylesofpanoramatutorial-comparing-styles-of-panoramaa)
+      - [See Also](#see-also-20)
+    - [<a name="ExploreSolarSystem">Solar System</a>](#a-nameexploresolarsystemsolar-systema)
+      - [See Also](#see-also-21)
+    - [<a name="SolarSystemTutorials">Solar System Tutorials</a>](#a-namesolarsystemtutorialssolar-system-tutorialsa)
+      - [See Also](#see-also-22)
+      - [<a name="TutorialTrackingaSolarEclipse">Tutorial: Tracking a Solar Eclipse</a>](#a-nametutorialtrackingasolareclipsetutorial-tracking-a-solar-eclipsea)
+      - [See Also](#see-also-23)
+    - [<a name="ExploreSandbox">Sandbox</a>](#a-nameexploresandboxsandboxa)
+      - [Adding your Own 3D Models](#adding-your-own-3d-models)
+    - [<a name="KeyboardShortcuts">Keyboard Shortcuts</a>](#a-namekeyboardshortcutskeyboard-shortcutsa)
+        - [Key](#key)
+        - [Effect](#effect)
+      - [See Also](#see-also-24)
+    - [<a name="XboxController">Xbox Controller</a>](#a-namexboxcontrollerxbox-controllera)
+        - [Button](#button)
+        - [Purpose](#purpose)
+      - [See Also](#see-also-25)
+    - [<a name="ExploreMenuEntries">Explore Menu Entries</a>](#a-nameexploremenuentriesexplore-menu-entriesa)
+      - [See Also](#see-also-26)
+  - [<a name="GuidedTours">Guided Tours</a>](#a-nameguidedtoursguided-toursa)
+      - [See Also](#see-also-27)
+    - [<a name="PlayingaTour">Playing a Tour</a>](#a-nameplayingatourplaying-a-toura)
+          - [Notes](#notes)
+      - [Playing Tours in Demo Mode](#playing-tours-in-demo-mode)
+      - [See Also](#see-also-28)
+    - [<a name="CreatingaTour">Creating a Tour</a>](#a-namecreatingatourcreating-a-toura)
+      - [Tour Properties Dialog](#tour-properties-dialog)
+      - [Tour Editing Pane](#tour-editing-pane)
+      - [Slide Editing Menu](#slide-editing-menu)
+      - [<a name="MasterSlides">Master Slides</a>](#a-namemasterslidesmaster-slidesa)
+      - [Slide Title](#slide-title)
+      - [Control Views and Settings](#control-views-and-settings)
+      - [Completing the Tour](#completing-the-tour)
+      - [<a name="SharingtheTour">Sharing the Tour</a>](#a-namesharingthetoursharing-the-toura)
+      - [See Also](#see-also-29)
+    - [<a name="CreatinganInteractiveTour">Creating an Interactive Tour</a>](#a-namecreatinganinteractivetourcreating-an-interactive-toura)
+      - [Tour Menu Selection](#tour-menu-selection)
+      - [See Also](#see-also-30)
+    - [<a name="GuidedToursMenuEntries">Guided Tours Menu Entries</a>](#a-nameguidedtoursmenuentriesguided-tours-menu-entriesa)
+      - [See Also](#see-also-31)
+  - [<a name="Communities">Communities</a>](#a-namecommunitiescommunitiesa)
+    - [<a name="JoiningaCommunity">Joining a Community</a>](#a-namejoiningacommunityjoining-a-communitya)
+      - [See Also](#see-also-32)
+    - [<a name="CreatingaCommunity">Creating a Community</a>](#a-namecreatingacommunitycreating-a-communitya)
+      - [See Also](#see-also-33)
+  - [<a name="TheSearchMenu">The Search Menu</a>](#a-namethesearchmenuthe-search-menua)
+      - [See Also](#see-also-34)
+    - [<a name="TheSearchPanel">The Search Panel</a>](#a-namethesearchpanelthe-search-panela)
+      - [See Also](#see-also-35)
+    - [<a name="SearchMenuEntries">Search Menu Entries</a>](#a-namesearchmenuentriessearch-menu-entriesa)
+      - [See Also](#see-also-36)
+  - [<a name="TheViewMenu">The View Menu</a>](#a-nametheviewmenuthe-view-menua)
+      - [See Also](#see-also-37)
+    - [<a name="ObservingLocation">Observing Location</a>](#a-nameobservinglocationobserving-locationa)
+      - [Set observing time for a new location](#set-observing-time-for-a-new-location)
+      - [See Also](#see-also-38)
+    - [<a name="ObservingTime">Observing Time</a>](#a-nameobservingtimeobserving-timea)
+      - [See Also](#see-also-39)
+    - [<a name="ViewMenuEntries">View Menu Entries</a>](#a-nameviewmenuentriesview-menu-entriesa)
+      - [See Also](#see-also-40)
+  - [<a name="TheSettingsMenu">The Settings Menu</a>](#a-namethesettingsmenuthe-settings-menua)
+      - [See Also](#see-also-41)
+    - [<a name="ConstellationLines">Constellation Lines</a>](#a-nameconstellationlinesconstellation-linesa)
+      - [See Also](#see-also-42)
+    - [<a name="Experience">Experience</a>](#a-nameexperienceexperiencea)
+      - [See Also](#see-also-43)
+    - [<a name="NetworkandCache">Network and Cache</a>](#a-namenetworkandcachenetwork-and-cachea)
+      - [See Also](#see-also-44)
+    - [<a name="SettingsMenuEntries">Settings Menu Entries</a>](#a-namesettingsmenuentriessettings-menu-entriesa)
+      - [See Also](#see-also-45)
+  - [<a name="TheTelescopeMenu">The Telescope Menu</a>](#a-namethetelescopemenuthe-telescope-menua)
+      - [See Also](#see-also-46)
+    - [<a name="ConnectingandControllingaTelescope">Connecting and Controlling a Telescope</a>](#a-nameconnectingandcontrollingatelescopeconnecting-and-controlling-a-telescopea)
+      - [See Also](#see-also-47)
+    - [<a name="TheTelescopePanel">The Telescope Panel</a>](#a-namethetelescopepanelthe-telescope-panela)
+      - [See Also](#see-also-48)
+    - [<a name="TelescopeMenuEntries">Telescope Menu Entries</a>](#a-nametelescopemenuentriestelescope-menu-entriesa)
+      - [See Also](#see-also-49)
+  - [<a name="AstronomyResearch">Astronomy Research</a>](#a-nameastronomyresearchastronomy-researcha)
+      - [See Also](#see-also-50)
+    - [<a name="CreatingaNewCollection">Creating a New Collection</a>](#a-namecreatinganewcollectioncreating-a-new-collectiona)
+      - [See Also](#see-also-51)
+    - [<a name="ComparingForegroundandBackgroundImages">Comparing Foreground and Background Images</a>](#a-namecomparingforegroundandbackgroundimagescomparing-foreground-and-background-imagesa)
+      - [See Also](#see-also-52)
+    - [<a name="TheFinderScope">The Finder Scope</a>](#a-namethefinderscopethe-finder-scopea)
+      - [See Also](#see-also-53)
+      - [<a name="VirtualObservatoryTables">Virtual Observatory Tables</a>](#a-namevirtualobservatorytablesvirtual-observatory-tablesa)
+          - [<h7><a name="VOConeSearch">VO Cone Search</a></h7>](#h7a-namevoconesearchvo-cone-searchah7)
+      - [See Also](#see-also-54)
+      - [<a name="FITSImages">FITS Images</a>](#a-namefitsimagesfits-imagesa)
+      - [See Also](#see-also-55)
+    - [<a name="SkySurveys">Sky Surveys</a>](#a-nameskysurveyssky-surveysa)
+        - [Wavelength](#wavelength)
+        - [Name](#name)
+      - [Imagery Data](#imagery-data)
+      - [See Also](#see-also-56)
+      - [<a name="DigitizedSkySurvey">Digitized Sky Survey</a>](#a-namedigitizedskysurveydigitized-sky-surveya)
+      - [See Also](#see-also-57)
+      - [<a name="HipparcosCatalog">Hipparcos Catalog</a>](#a-namehipparcoscataloghipparcos-cataloga)
+      - [See Also](#see-also-58)
+      - [<a name="VLALowFrequencySkySurvey">VLSS: VLA Low Frequency Sky Survey (Radio)</a>](#a-namevlalowfrequencyskysurveyvlss-vla-low-frequency-sky-survey-radioa)
+      - [See Also](#see-also-59)
+      - [<a name="WMAPMicrowave">WMAP ILC 5-Year Cosmic Microwave Background</a>](#a-namewmapmicrowavewmap-ilc-5-year-cosmic-microwave-backgrounda)
+      - [See Also](#see-also-60)
+      - [<a name="SFDDustMap">SFD Dust Map</a>](#a-namesfddustmapsfd-dust-mapa)
+      - [See Also](#see-also-61)
+      - [<a name="IRIS">IRIS: Improved Imaging of IRAS Survey (Infrared)</a>](#a-nameirisiris-improved-imaging-of-iras-survey-infrareda)
+      - [See Also](#see-also-62)
+      - [<a name="TwoMicroAllSkySurvey">2MASS Two Micron All Sky Survey (Synthetic)</a>](#a-nametwomicroallskysurvey2mass-two-micron-all-sky-survey-synthetica)
+      - [See Also](#see-also-63)
+      - [<a name="HydrongenAlphaFullSkyMap">Hydrogen Alpha Full Sky Map</a>](#a-namehydrongenalphafullskymaphydrogen-alpha-full-sky-mapa)
+      - [See Also](#see-also-64)
+      - [<a name="SloanDigitalSkySurvey">SDSS: Sloan Digital Sky Survey</a>](#a-namesloandigitalskysurveysdss-sloan-digital-sky-surveya)
+      - [See Also](#see-also-65)
+      - [<a name="Tycho">Tycho (Synthetic, Optical)</a>](#a-nametychotycho-synthetic-opticala)
+      - [See Also](#see-also-66)
+      - [<a name="USNOB">USNOB: US Naval Observatory B1.0 (Synthetic, Optical)</a>](#a-nameusnobusnob-us-naval-observatory-b10-synthetic-opticala)
+      - [See Also](#see-also-67)
+      - [<a name="GALEX">GALEX (Ultraviolet)</a>](#a-namegalexgalex-ultravioleta)
+      - [See Also](#see-also-68)
+      - [<a name="ROSATAllSkySurvey">RASS: ROSAT All Sky Survey (X-Ray)</a>](#a-namerosatallskysurveyrass-rosat-all-sky-survey-x-raya)
+      - [See Also](#see-also-69)
+      - [<a name="Fermi">Fermi (Gamma)</a>](#a-namefermifermi-gammaa)
+      - [See Also](#see-also-70)
+      - [<a name="BlackSkyBackground">Black Sky Background</a>](#a-nameblackskybackgroundblack-sky-backgrounda)
+      - [Browse](#browse)
+      - [See Also](#see-also-71)
+    - [<a name="ContextSearch">Context Search</a>](#a-namecontextsearchcontext-searcha)
+      - [Context Search Filter](#context-search-filter)
+        - [Group](#group)
+        - [Title](#title)
+        - [Description](#description-2)
+        - [Example](#example)
+      - [See Also](#see-also-72)
+    - [<a name="StellarBrightness">Stellar Brightness</a>](#a-namestellarbrightnessstellar-brightnessa)
+        - [First object](#first-object)
+        - [Second object](#second-object)
+        - [Relative Magnitude](#relative-magnitude)
+        - [(V scale)](#v-scale)
+        - [Relative Magnitude](#relative-magnitude-1)
+        - [(linear)](#linear)
+      - [See Also](#see-also-73)
+  - [<a name="EarthAndPlanetResearch">Earth and Planet Research</a>](#a-nameearthandplanetresearchearth-and-planet-researcha)
+      - [See Also](#see-also-74)
+    - [<a name="TimeSeriesData">Time Series Data</a>](#a-nametimeseriesdatatime-series-dataa)
+      - [Setting Time Series Data Running](#setting-time-series-data-running)
+      - [See Also](#see-also-75)
+    - [<a name="TimeSeriesTutorial">Time Series Tutorial</a>](#a-nametimeseriestutorialtime-series-tutoriala)
+      - [See Also](#see-also-76)
+  - [<a name="Configuration">Configuration</a>](#a-nameconfigurationconfigurationa)
+      - [See Also](#see-also-77)
+    - [<a name="RegionalDataCache">Regional Data Cache</a>](#a-nameregionaldatacacheregional-data-cachea)
+      - [See Also](#see-also-78)
+    - [<a name="MultiMonitorCluster">Multi-Monitor Cluster</a>](#a-namemultimonitorclustermulti-monitor-clustera)
+        - [XML](#xml)
+        - [Description](#description-3)
+      - [See Also](#see-also-79)
+      - [<a name="SingleSlaveComputer">Single Slave Computer</a>](#a-namesingleslavecomputersingle-slave-computera)
+      - [See Also](#see-also-80)
+      - [<a name="RemoteStartingoftheMultiMonitorCluster"></a>Remote Starting of the Multi-Monitor Cluster](#a-nameremotestartingofthemultimonitorclusteraremote-starting-of-the-multi-monitor-cluster)
+      - [See Also](#see-also-81)
+    - [<a name="SingleProjectorPlanetarium">Single-Projector Planetarium</a>](#a-namesingleprojectorplanetariumsingle-projector-planetariuma)
+        - [Screen resolution](#screen-resolution)
+        - [Aspect ratio](#aspect-ratio)
+      - [See Also](#see-also-82)
+      - [<a name="CustomWarpFiles">Custom Warp Files</a>](#a-namecustomwarpfilescustom-warp-filesa)
+      - [See Also](#see-also-83)
+    - [<a name="MultiProjectorPlanetarium">Multi-Projector Planetarium</a>](#a-namemultiprojectorplanetariummulti-projector-planetariuma)
+      - [See Also](#see-also-84)
+      - [<a name="ProjectionDesignerConfiguration">Projection Designer Configuration</a>](#a-nameprojectiondesignerconfigurationprojection-designer-configurationa)
+        - [XML](#xml-1)
+        - [Description](#description-4)
+      - [See Also](#see-also-85)
+      - [<a name="ExternalBlendingConfiguration">External Blending Configuration</a>](#a-nameexternalblendingconfigurationexternal-blending-configurationa)
+        - [XML](#xml-2)
+        - [Description](#description-5)
+      - [See Also](#see-also-86)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 
 # <a name="WorldWideTelescopeUserGuide">WorldWide Telescope User Guide</a>
-
-<font color="red">Note: This documentation is preliminary and subject to change.</font>
-
 The WorldWide Telescope is a software environment that enables your computer to function as a virtual telescope, combining terabytes of imagery from such famous telescopes as Hubble, Chandra and Spitzer into one vast panorama of the universe.
 
 WorldWide Telescope allows seamless panning and zooming around the night sky, our Solar System, and other space-orientated panoramas, such as the pictures taken of the surfaces of the Moon and Mars. [Explore](#Exploring) the sky at multiple wavelengths: see the x-ray view of the sky and zoom into bright radiation clouds, and then cross-fade into the visible light view and discover the cloud remnants of a supernova explosion from a thousand years ago. Switch to the Hydrogen Alpha view to see the distribution and illumination of massive primordial hydrogen cloud structures lit up by the high energy radiation coming from nearby stars in the Milky Way.
@@ -15,124 +246,6 @@ For a dazzling educational experience, our Solar System is modeled in three dime
 Newcomers to WorldWide Telescope are recommended to browse the growing number of [Guided Tours](#GuidedTours) of the sky by astronomers and educators from some of the most respected observatories and planetariums. Most of the features can be discovered simply by using the program. This documentation is provided as a resource to help describe what is going on, and to help locate the features that this project has to offer. There are two versions of WorldWide Telescope, a Windows application and a web client. This documentation set describes both, where necessary indicating where a feature only applies to one. The essential differences between the two are that the Windows version is downloaded and installed first, then run, and has a few more features. The web client is not downloaded and installed, is based on HTML5, and has fewer features but can be customized.
 
 _WorldWide Telescope is created by Microsoft Research using the Microsoft high performance Visual Experience Engine , and the project is dedicated  to legendary researcher Jim Gray, without whom this project would not have happened. WorldWide Telescope is released as a free resource to the astronomy and education community with the hope that it will inspire and empower people to explore and understand the universe like never before._
-
-<div class="toc">
-
-## Table of Contents
-
-*   [Screen Layout](#ScreenLayout)
-
-    *   [The Top Panel](#TheTopPanel)
-    *   [The View](#TheView)
-    *   [The Lower Panel](#TheLowerPanel)
-    *   [The Layer Manager](#TheLayerManager)
-
-*   [Exploring](#Exploring)
-
-    *   [Earth](#ExploreEarth)
-        *   [Earth Tutorials](#EarthTutorials)
-
-    *   [Tutorial: Comparing Night and Day](#TutorialComparingNightandDay)
-
-    *   [Planet](#ExplorePlanet)
-    *   [Planet Tutorials](#PlanetTutorials)
-
-        *   [Tutorial: Locating Olympus Mons](#TutorialLocatingOlympusMons)
-        *   [Tutorial: Comparing Surface Features of the Solar System](#TutorialComparingSurfaceFeaturesoftheSolarSystem)
-
-    *   [Sky](#ExploreSky)
-    *   [Sky Tutorials](#SkyTutorials)
-
-        *   [Tutorial: Tracking a Conjunction](#TutorialTrackingaConjunction)
-        *   [Tutorial: Visiting the Neighbors](#TutorialVisitingtheNeighbors)
-        *   [Tutorial: The Sky Tonight](#TutorialTheSkyTonight)
-        *   [Tutorial: Astronomy Terminology](#TutorialAstronomyTutorial)
-
-    *   [Panorama](#ExplorePanorama)
-    *   [Panorama Tutorials](#PanoramaTutorials)
-
-        *   [Tutorial: Comparing Styles of Panorama](#TutorialComparingStylesofPanorama)
-
-    *   [Solar System](#ExploreSolarSystem)
-    *   [Solar System Tutorials](#SolarSystemTutorials)
-
-        *   [Tutorial: Tracking a Solar Eclipse](#TutorialTrackingaSolarEclipse)
-
-    *   [Sandbox](#ExploreSandbox)
-    *   [Keyboard Shortcuts](#KeyboardShortcuts)
-    *   [Xbox Controller](#XboxController)
-    *   [Explore Menu Entries](#ExploreMenuEntries)
-
-*   [Guided Tours](#GuidedTours)
-
-    *   [Playing a Tour](#PlayingaTour)
-    *   [Creating a Tour](#CreatingaTour)
-    *   [Creating an Interactive Tour](#CreatinganInteractiveTour)
-    *   [Guided Tours Menu Entries](#GuidedToursMenuEntries)
-
-*   [Communities](#Communities)
-
-    *   [Joining a Community](#JoiningaCommunity)
-    *   [Creating a Community](#CreatingaCommunity)
-
-*   [The Search Menu](#TheSearchMenu)
-
-    *   [The Search Panel](#TheSearchPanel)
-    *   [Search Menu Entries](#SearchMenuEntries)
-
-*   [The View Menu](#TheViewMenu)
-
-    *   [Observing Location](#ObservingLocation)
-    *   [Observing Time](#ObservingTime)
-    *   [View Menu Entries](#ViewMenuEntries)
-
-*   [The Settings Menu](#TheSettingsMenu)
-
-    *   [Constellation Lines](#ConstellationLines)
-    *   [Experience](#Experience)
-    *   [Network and Cache](#NetworkandCache)
-    *   [Settings Menu Entries](#SettingsMenuEntries)
-
-*   [The Telescope Menu](#TheTelescopeMenu)
-
-    *   [Connecting and Controlling a Telescope](#ConnectingandControllingaTelescope)
-    *   [The Telescope Panel](#TheTelescopePanel)
-    *   [Telescope Menu Entries](#TelescopeMenuEntries)
-
-*   [Astronomy Research](#AstronomyResearch)
-
-    *   [Creating a New Collection](#CreatingaNewCollection)
-    *   [Comparing Foreground and Background Images](#ComparingForegroundandBackgroundImages)
-    *   [The Finder Scope](#TheFinderScope)
-    *   [Virtual Observatory Tables](#VirtualObservatoryTables)
-    *   [FITS Images](#FITSImages)
-    *   [Sky Surveys](#SkySurveys)
-    *   [Context Search](#ContextSearch)
-    *   [Stellar Brightness](#StellarBrightness)
-
-*   [Earth and Planet Research](#EarthAndPlanetResearch)
-
-    *   [Time Series Data](#TimeSeriesData)
-    *   [Time Series Tutorial](#TimeSeriesTutorial)
-
-*   [Configuration](#Configuration)
-
-    *   [Regional Data Cache](#RegionalDataCache)
-    *   [Multi-Monitor Cluster](#MultiMonitorCluster)
-
-        *   [Single Slave Computer](#SingleSlaveComputer)
-        *   [Remote Starting of the Multi-Monitor Cluster](#RemoteStartingoftheMultiMonitorCluster)
-
-    *   [Single-Projector Planetarium](#SingleProjectorPlanetarium)
-
-        *   [Custom Warp Files](#CustomWarpFiles)
-
-    *   [Multi-Projector Planetarium](#MultiProjectorPlanetarium)
-
-        *   [Projection Designer Configuration](#ProjectionDesignerConfiguration)
-        *   [External Blending Configuration](#ExternalBlendingConfiguration)
-
-</div>
 
 ## <a name="Support">Support</a>
 
@@ -170,7 +283,7 @@ The following image shows the first view that will appear on running WorldWide T
 
 Along the top of the screen is the main menu, with entries **Explore**, **Guided Tours**, **Search**, **Community**, **Telescope**, **View** and **Settings**. These entries are described in detail later on in the documentation, however the basic purpose of each entry follows. Note that the main menu items can be clicked on themselves, which has a different function than selecting the down arrow and opening up the menu contents.
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/ui_win_Main-Menu-Down-Arrow.png) | Hovering the mouse underneath the main menu item will display a down arrow. Clicking on this down arrow will open up the menu contents. Clicking on the main menu item itself (for example, clicking on the entry **Explore**) will change the appearance of the top panel, and not display the menu contents. |
+| ![](uiimages/ui_win_Main-Menu-Down-Arrow.png) | Hovering the mouse underneath the main menu item will display a down arrow. Clicking on this down arrow will open up the menu contents. Clicking on the main menu item itself (for example, clicking on the entry **Explore**) will change the appearance of the top panel, and not display the menu contents. |
 
 *   [**Explore**](#Exploring): The first two menu items, **New** and **Open**, are used to start new data files, or open existing data files, respectively. These are the primary purposes of the **Explore** menu - the location of data to display. Clicking the **Explore** entry itself will display the data **Collections** thumbnails across the top panel. Selecting any of these thumbnails will either open up a new set of thumbnails to browse, or change the view to display something new. These thumbnail images either reference individual items, or another set of items (similar to a folder and file structure). A set of images are referred to as _collections_ in WorldWide Telescope.
 *   [**Guided Tours**](#GuidedTours): A tour in WorldWide Telescope is an animated, annotated slide-show, for educational, research or entertainment purposes, usually focusing on a particular topic. Clicking the **Guided Tours** entry itself will display the **Tours** supplied by default with the product in the top panel. The menu entries can be used to search for other tours on the web, and to create a new tour. Opening a tour can also be done from the **Explore > Open** sub-menu.
@@ -182,8 +295,8 @@ Along the top of the screen is the main menu, with entries **Explore**, **Guided
 
 The _Top Panel_ is shown in the image below. It is a glass panel that displays a range of thumbnail images. Thumbnail images are there to be clicked on, with the underlying text helping identity the data.
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/ui_win_Top-Panel.png) | In this top panel view, the user has selected the thumbnail **Constellations**, so the top panel now displays all 89 constellation entries. Astronomers will note that there are 88 constellations, however WorldWide Telescope treats the divided Serpens constellation as two. |
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/TopPanelNext.jpg) | If there are more thumbnails than the top panel can display, the number of rows of thumbnails (with _previous_ and _next_ arrows) will appear to the far right of the panel. Select the arrows or use the mouse wheel to scroll through the options. |
+| ![](uiimages/ui_win_Top-Panel.png) | In this top panel view, the user has selected the thumbnail **Constellations**, so the top panel now displays all 89 constellation entries. Astronomers will note that there are 88 constellations, however WorldWide Telescope treats the divided Serpens constellation as two. |
+| ![](uiimages/TopPanelNext.jpg) | If there are more thumbnails than the top panel can display, the number of rows of thumbnails (with _previous_ and _next_ arrows) will appear to the far right of the panel. Select the arrows or use the mouse wheel to scroll through the options. |
 
 #### See Also
 
@@ -195,7 +308,7 @@ The _Top Panel_ is shown in the image below. It is a glass panel that displays a
 
 Underneath the top panel is the main view! In this case the user has selected **Constellations** then **Cassiopeia**:
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/MainViewHeartNebula.jpg) |
+| ![](uiimages/MainViewHeartNebula.jpg) |
 
 The images of the sky are annotated with the outlines of the constellations. The constellation most central to the view is referred to as the _selected_ _constellation_, and is outlined in yellow. The red lines display _figures_ - in this case linking the main stars that make up the constellation. Cassiopeia is of course known for the five bright stars making up the large _W_.
 
@@ -205,7 +318,7 @@ To navigate the main view the primary device is the mouse. Use the mouse wheel t
 
 Clicking the right mouse button brings up the [Finder Scope](#TheFinderScope), which can be dragged around the screen with the mouse to help identify objects. In the image below, it has been used to select one of the stars in Cassiopeia.
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/FinderScope.jpg) |
+| ![](uiimages/FinderScope.jpg) |
 
 Click the **X** in the top right corner of the **Finder Scope** to close it.
 
@@ -219,7 +332,7 @@ Click the **X** in the top right corner of the **Finder Scope** to close it.
 
 At the bottom of the screen there is the lower panel. This performs a variety of functions, the most significant of which are the **Look At** and **Imagery** entries.
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/LookAt.jpg) |
+| ![](uiimages/LookAt.jpg) |
 
 The **Look At** list includes **[Earth](#ExploreEarth), [Planet](#ExplorePlanet), [Sky](#ExploreSky), [Panorama](#ExplorePanorama),** and **[Solar System](#ExploreSolarSystem)**. This is the highest level list determining what to display. Selecting **Solar** **System** reveals the impressive 3D modeling of the Sun and Solar System planets (this is not currently available in the web control version of WorldWide Telescope). The **Imagery** list gives the range of data options given the selection made in the **Look At** list. For **Solar System** there is only one option. For **Sky** there is a large range of options, as there are many different wavelengths of light that can be recorded, in addition to the visible wavelength that we all see. Different wavelengths include x-ray, gamma, microwave, and so on. The most fascinating imagery is to most people the visible wavelength, but studies of the other wavelengths can reveal more specific information about what is happening, or has happened, to the stellar object.
 
@@ -229,15 +342,15 @@ The selections made in the **Look At** and **Imagery** lists greatly affects the
 
 Underneath these two list entries in the lower panel is the context list of thumbnails. A [Context Search](#ContextSearch) is carried out whenever the view is changed, and provides a thumbnail list of all the objects of interest in the current view. The more you zoom in, the shorter and shorter this list will become. For example, select **Explore** then **Constellations** then click on **Corvus**. The context list is shown in the image below:
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/ContextSearch.jpg) |
+| ![](uiimages/ContextSearch.jpg) |
 
 There are a lot of entries in the list, starting with the planet Saturn. This list does not only include the stellar objects in the constellation Corvus, but all those objects in the current view. They are sorted in order. The first items are the planets and named objects, the later ones often do not have a name other than their catalog entries - _NGC4024_ for example. If this list is long, which it often is, use the previous and next arrows to scroll through it. Notice too that the context list is populated when a view comes to a halt, it is often empty when the view is animating from one location to the next. The size of the contexts lists can be reduced by de-selecting items in the **[Context Search](#ContextSearch) Filter**.
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/ContextSearchFilter.jpg) | Only stars and supernova will now appear in the context list - no black holes or neutron stars! |
+| ![](uiimages/ContextSearchFilter.jpg) | Only stars and supernova will now appear in the context list - no black holes or neutron stars! |
 
 The final elements of the lower panel are shown in the image below:
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/LowerPanelFOV.jpg) | The small up and down arrows can be used to show and hide the lower panel itself.
+| ![](uiimages/LowerPanelFOV.jpg) | The small up and down arrows can be used to show and hide the lower panel itself.
 
 The pane to the far right of the lower panel shows the _skyball_ (displaying the field of view relative to the celestial sphere), and the selected constellation. This pane also shows the parameters of the view - the right ascension, declination and field of view in degrees (60:00:00 in this example).
 
@@ -260,7 +373,7 @@ You can use the **Layer Manager** to specify which layers and overlays to displa
 
 *   Click **View > Show Layer Manager**, or
 *   Click the Layer Manager icon.
-    ![](//wwtweb.blob.core.windows.net/docs/uiimages/ui_win_Layer-Manager-Toggle.png)
+    ![](uiimages/ui_win_Layer-Manager-Toggle.png)
 
 **To Add a Layer**
 
@@ -276,7 +389,7 @@ Each view has its own node within the Layer Manager.
 *   The **Sandbox** node lets you add custom content to view in [Sandbox](#ExploreSandbox) mode.
 *   The **Dome** node exposes options for using WorldWide Telescope with a planetarium dome.
 
-![](//wwtweb.blob.core.windows.net/docs/uiimages/ui_win_Layer-Manager.png)
+![](uiimages/ui_win_Layer-Manager.png)
 
 This completes the overview of the screen layout. The following sections go into much more detail on each individual topic.
 
@@ -350,7 +463,7 @@ Use **View > Reset Camera** to restore the default view and settings.
 Use the **Imagery** menu to choose from the available imagery options, including aerial, streets, hybrid and nighttime views.
 
 | This image of Hawaii is obtained from the **Virtual Earth Hybrid** imagery: |
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/TheEarth.jpg) |
+| ![](uiimages/TheEarth.jpg) |
 
 #### See Also
 
@@ -381,9 +494,9 @@ There are several imagery options for the Earth, including aerial photography, s
 1.  In the **Look At** list select **Earth**.
 2.  In the **Imagery** list scroll to the **Bing Maps Streets** view.
 3.  In the **Settings** pane ensure that **Earth Cloud Layer Overlay** is not selected.
-4.  Rotate the Earth using the mouse until southwest Australia is in view, then zoom in to the following location: ![](//wwtweb.blob.core.windows.net/docs/uiimages/ex_Earth-OzDay.png)
+4.  Rotate the Earth using the mouse until southwest Australia is in view, then zoom in to the following location: ![](uiimages/ex_Earth-OzDay.png)
 
-5.  Without changing the zoom or pan settings, change the **Imagery** to **Earth at Night**. Notice that the same view angle is maintained even though the imagery has changed. Try toggling the **Imagery** to **Bing Maps Streets**, then back to **Earth at Night** again. Human population density is readily revealed with the glow of artificial light in the night view. The bright areas on the night map exactly matches the city of Perth named on the **Bing Maps Streets** view. ![](//wwtweb.blob.core.windows.net/docs/uiimages/ex_Earth-OzNight.png)
+5.  Without changing the zoom or pan settings, change the **Imagery** to **Earth at Night**. Notice that the same view angle is maintained even though the imagery has changed. Try toggling the **Imagery** to **Bing Maps Streets**, then back to **Earth at Night** again. Human population density is readily revealed with the glow of artificial light in the night view. The bright areas on the night map exactly matches the city of Perth named on the **Bing Maps Streets** view. ![](uiimages/ex_Earth-OzNight.png)
 
     Try this comparison in different locations around the world!
 
@@ -409,7 +522,7 @@ Use tilt along with the **Show Elevation Model** setting in the **Earth > Overla
 Use **View**, **Reset Camera** to restore the default view and settings.
 
 | Some moons are available under the **Planet** imagery, including Io, one of the best known of Jupiter's many moons: |
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/Io.jpg) |
+| ![](uiimages/Io.jpg) |
 
 *   [Exploring](#Exploring)
 *   [Tutorial: Locating Olympus Mons](#TutorialLocatingOlympusMons)
@@ -441,12 +554,12 @@ Olympus Mons is the tallest mountain on Mars (and indeed the Solar System). At a
 2.  In the **Imagery** list click on **Mars**.
 3.  Pan and rotate the view in order to locate the mountain, noting that it is close to the Martian equator. The mountain can be located visually either from its top-down view, which is distinctive, or from its proximity to three smaller mountains than are in a near perfect line. These two views are shown in the following images:
 
-    | ![](//wwtweb.blob.core.windows.net/docs/uiimages/OlympusMons3.jpg) |
-    | ![](//wwtweb.blob.core.windows.net/docs/uiimages/OlympusMons1.jpg) |
+    | ![](uiimages/OlympusMons3.jpg) |
+    | ![](uiimages/OlympusMons1.jpg) |
 
 4.  Zoom in and use the **CTRL** key as you click and drag vertically. This will tilt the view to show just how tall Olympus Mons actually is:
 
-    | ![](//wwtweb.blob.core.windows.net/docs/uiimages/OlympusMons2.jpg) |
+    | ![](uiimages/OlympusMons2.jpg) |
 
 5.  Olympus Mons is a _shield_ volcano, approximately 340 miles wide. The most recent volcanic activity is estimated at 2 million years ago, so it is difficult to classify the volcano as extinct. One theory for the huge size of the mountain is that Mars does not have tectonic plates, so there is no gradual crust movement to recycle the surface.  However this theory is countered by the three mountains in a line, which suggests a plate edge. The three smaller mountains are also volcanoes and are named  Arsia Mons, Pavonis Mons  and Ascraeus Mons, though they are smaller only in relation to Olympus Mons (Arsia Mons - the southernmost - is the tallest at about 12 miles high, Pavonis Mons - the middle of the three - the shortest at 8.6 miles, and Ascraeus Mons - the northernmost - is about 11 miles high).
 6.  Other surface features of Mars to look for include the great canyon, Valles Marineris, which runs along the equator and is over 2500 miles long. It is the deepest known crevice in the Solar System. Mars is also known for its plains, polar caps, and clear signs of water and wind erosion. Mars' surface temperature is quite cold, ranging from -140 to 20 Celsius. Its atmosphere is mostly carbon dioxide, but there is enough water vapor to form the occasional clouds.
@@ -481,12 +594,12 @@ Notice that Venus has fewer craters than Mercury, Mars or our Moon, which sugges
 5.  Earth
 
 | Refer to [Earth](#ExploreEarth). | Our solitary moon is old and heavily cratered, one of the best known craters is called Copernicus. It can be located visually using the **Explore > Collections > Planets/Moons** data (noting the three craters in a near line), or from its latitude and longitude:
-![](//wwtweb.blob.core.windows.net/docs/uiimages/CopernicusCrater.jpg) |
+![](uiimages/CopernicusCrater.jpg) |
 
 7.  Mars
 
 | See the description in the [Locating Olympus Mons](#TutorialLocatingOlympusMons) tutorial. | Mars has two moons, Phobos and Deimos. Some image data is available, find the thumbnails in the **Explore > Collections > Planets/Moons** data. Currently they are not represented in the **Sky** or **SolarSystem** views. Deimos is notable for its smooth surface:
-![](//wwtweb.blob.core.windows.net/docs/uiimages/Deimos.jpg)
+![](uiimages/Deimos.jpg)
  |
 
 9.  Jupiter
@@ -494,20 +607,20 @@ Notice that Venus has fewer craters than Mercury, Mars or our Moon, which sugges
 | Jupiter's surface is gaseous so there are no mountains or valleys to speak of. The most prominent surface features are the banding and the spots -- with the Great Red Spot being the largest of the spots with a diameter that exceeds that of the Earth. The spots are swirling clouds of gas, often referred to as storms but are surprisingly stable, changing little in size in the years they have been observed. The banding is caused by clouds of different colors. The darker brown and red bands are called _belts_, and the lighter yellow and white bands called _zones_.
 Jupiter's atmosphere is mostly hydrogen with some helium, and traces of many other gases. | Jupiter has four large moons, Io, Europa, Ganymede (the largest moon of the Solar System) and Callisto. Image data for all four exists in the **Planet**, **Sky** and **SolarSystem** views.
 Jupiter has many other satellites, totaling at least 63, though none of the others match the size of the four largest. Ganymede has ancient dark surface matter, and not quite so ancient lighter surface matter, marked with grooves and ridges:
-![](//wwtweb.blob.core.windows.net/docs/uiimages/GanymedeSurface.jpg) |
+![](uiimages/GanymedeSurface.jpg) |
 
 11.  Saturn
 
 | Saturn's surface is relatively bland, consisting mostly of hydrogen and helium gas. It is known for its high winds, up to 1000 mph, and lightning that is one million times more powerful than that on Earth. It is the most beautiful planet in the Solar System because of its spectacular rings, believed to have been formed by a comet or other object passing too close and being pulled apart into tiny fragments of ice and dust. The creation and rotation of the rings cannot be explained solely by gravity, as there appears to be an electromagnetic interaction between dark _spokes_ in the rings that rotate almost synchronously with the magnetosphere of the planet. | Saturn has a large number of moons, 53 currently have names, though many are small.
 Partial imagery exists in the Explore > Collections > Planets/Moons data for Mimas, Enceladus, Tethys, Dione, Rhea, and Iapetus. Mimas is known for its huge impact crater -- 62 miles in diameter:
-![](//wwtweb.blob.core.windows.net/docs/uiimages/Mimas.jpg)
+![](uiimages/Mimas.jpg)
  |
 
 13.  Uranus
 
 | Another gas giant, the surface of Uranus consists of blue-green clouds -- colored by tiny crystals of methane. Similar to Jupiter and Saturn the atmosphere is mostly hydrogen and helium. | Uranus has at least 21 satellites. Partial imagery exists for the largest five -- Ariel, Umbriel, Titania, Oberon and Miranda -- in the **Explore > Collections > Planets/Moons** data.
 Miranda has some strange rocky surface features called ovoids, that have near parallel ridges and canyons. One of these ovoids is clearly visible in the partial data:
-![](//wwtweb.blob.core.windows.net/docs/uiimages/MirandaOvoid.jpg) |
+![](uiimages/MirandaOvoid.jpg) |
 
 15.  Neptune
 
@@ -560,24 +673,24 @@ Use **Sky** view to explore the celestial sphere, the vast expanse above and aro
 *   To rotate the field of view **CTRL + click** and drag horizontally.
 
 | The Crab Nebula is one of the best known features of the constellation Taurus. It is a supernova remnant: |
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/TheNightSky.jpg) |
+| ![](uiimages/TheNightSky.jpg) |
 |
 
 By default the **Explore > Collections** options are shown in the top panel. You can use the **Collections** panel to explore image data in WorldWide Telescope. Thumbnails in the **Collections** panel behave like files and folders; each thumbnail links either to another set of collections, or to a single piece of image data.
 
-![](//wwtweb.blob.core.windows.net/docs/uiimages/HubbleStudies.jpg)
+![](uiimages/HubbleStudies.jpg)
 
 These images are detailed individual (or composite) pictures of the objects, and will be rendered over the background sky image. Note the down arrow in the lower right of the image. This can be used to show a much larger top panel, with many more thumbnails present. Interesting comparisons can be made by using the cross-fade slider (located in the lower panel) to compare the image you have loaded with the [Sky Survey](#SkySurveys).
-![](//wwtweb.blob.core.windows.net/docs/uiimages/ImageCrossfade.jpg)
+![](uiimages/ImageCrossfade.jpg)
 
 Note that Collections data can be in various modes; most are in the **Sky** view. When selecting an object from a collection the **Look At** mode will be switched to the appropriate view automatically.
 
 The context list in the lower panel is updated each time the view is changed. A single click in a context thumbnail (shown in the lower panel) will smoothly navigate to that location. Double clicking will skip straight to the location, NGC2555 in the example below. Hovering the mouse over the thumbnail will illuminate the object with an annotation in the main view (if the object is visible in the main view).
-![](//wwtweb.blob.core.windows.net/docs/uiimages/SkyContext.jpg)
+![](uiimages/SkyContext.jpg)
 If there are too many context thumbnails to scroll though, use the up arrow to show many more of them:
-![](//wwtweb.blob.core.windows.net/docs/uiimages/MaxContext.jpg)
+![](uiimages/MaxContext.jpg)
 Click in the globe, then drag the mouse, to change the field of view relative to the Celestial Sphere. Click in the constellation box to center the view on that constellation -- Draco in this example:
-![](//wwtweb.blob.core.windows.net/docs/uiimages/CelestialSphere.jpg)
+![](uiimages/CelestialSphere.jpg)
 All of the [The View Menu](#TheViewMenu) options apply to the Sky view, except the **3d Solar System** pane. In particular refer to the [Observing Location](#ObservingLocation) pane to select a different viewpoint on Earth.
 
 Also check the **Constellation Lines** and **Experience** options in the [The Settings Menu](#TheSettingsMenu).
@@ -625,7 +738,7 @@ A conjunction occurs when two or more objects in the sky appear close to each ot
 7.  Zoom in a bit on the Moon, which is right in the center of Sagittarius.
 8.  The crescent Moon makes a smiley face with Venus and Jupiter. Note that to show both annotations the following image is a composite of two screenshots.
 
-    | ![](//wwtweb.blob.core.windows.net/docs/uiimages/ConjunctionMoonVenusJupiter.jpg) |
+    | ![](uiimages/ConjunctionMoonVenusJupiter.jpg) |
 
 Conjunctions are a visually interesting phenomenon that usually involve near-Earth objects. To examine a range of distant features of the known universe, try the following tutorial, or select the examples in the [Context Search](#ContextSearch) table.
 
@@ -646,14 +759,14 @@ In this tutorial you'll learn how to use the search features of WorldWide Telesc
 2.  In the **View** pane ensure **View from this location** is not selected.
 3.  Outside of the Solar System, the nearest known star to Earth is so dim it is impossible to see with the naked eye. The star, Proxima Centauri, is about 4.2 light years distant. It has two very bright neighbors known either as Alpha Centauri (A and B) or Rigil Kentaurus. To locate these click [**Search**](#TheSearchPanel) so that the search panel appears, and type "Prox" into the search text box. Note that the search narrows as you enter each letter, and it is only necessary to enter a few to locate this star. Double click the thumbnail to jump to the location.
 
-    | ![](//wwtweb.blob.core.windows.net/docs/uiimages/ProximaCentauri.jpg) | The image shows that there can be some discrepancy between the recorded position of a star, and its location on a photograph.
+    | ![](uiimages/ProximaCentauri.jpg) | The image shows that there can be some discrepancy between the recorded position of a star, and its location on a photograph.
 
     Proxima Centauri has an apparent magnitude of around 11.05\. This is on a [Stellar Brightness](#StellarBrightness) logarithmic scale (the higher the numbers, the lower the brightness). A value of 11 is 2.5 times dimmer than a value of 10, which is 2.5 times dimmer than a value of 9, and so on. |
 
 4.  Use the mouse wheel to zoom out from Proxima Centauri until the bright stars of Alpha Centuari and Hadar appear (Hadar is also known as Beta Centauri). Notice that Proxima Centauri is no longer visible. Hadar has a brightness magnitude of 0.61 (Rigil Kentaurus is even brighter at -0.01) and Proxima Centauri has a brightness magnitude of 11.05, which makes Hadar 15000 times more bright than Proxima Centauri. Our nearest star is certainly not the brightest!
 5.  To visit the brightest star type **Sirius** into the search text box, and click on the thumbnail. Aside from the Sun, Sirius is the brightest star in the sky by a considerable margin.
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/Sirius.jpg) | Sirius has a brightness magnitude of -1.46\. The second brightest star, Canopus, has a magnitude of -0.72\. This makes Sirius very nearly twice as bright as Canopus.
+| ![](uiimages/Sirius.jpg) | Sirius has a brightness magnitude of -1.46\. The second brightest star, Canopus, has a magnitude of -0.72\. This makes Sirius very nearly twice as bright as Canopus.
 
 However, Canopus is 308 light years distant from us, and Sirius only 8.6 light years, so Canopus would appear much brighter if it were not so distant.
 
@@ -662,38 +775,38 @@ However, Canopus is 308 light years distant from us, and Sirius only 8.6 light y
 7.  Another interesting nearby star is Epsilon Eridani. At a distance of 10.5 light years, and with an apparent magnitude of 3.73, it is often visible to the naked eye. Early observations of the star suggested, but did not confirm, that it is the nearest star with a planet - a gas giant similar to but larger than Jupiter - in a 7 Earth-year orbit. Search "Epsilon Eridani" to locate the star. Measurements using the Hubble Space Telescope have since confirmed the planet's existence. Planets are very difficult to detect because they are lost in the glare of their parent star. Their presence is usually inferred from a wobble in the star's movement (suggesting a nearby gravitational tug), or by coincidence when the planet crosses in front of the star from our viewpoint and alters the star's brightness to a degree. Because of these limitations in detection, most of the nearly 400 planets so far located are Jupiter-like in size. The nearest Earth-like planet so far detected orbits the red-dwarf star Gliese 581, located 20 light years from Earth. Good images of planets are very hard to come by.
 8.  Visiting the nearest galaxy requires some definition. Large galaxies like the Milky Way have many smaller satellite galaxies, usually called dwarf galaxies. The nearest known dwarf galaxy is Canis Major Dwarf, about 25,000 light years distant from us. WorldWide Telescope does not yet have a single image of this galaxy, so we will visit instead the previous contender for the closest satellite galaxy, the Sagittarius Dwarf Elliptical Galaxy, believed to be around 70,000 light years from here. Change the **Imagery** selection from Hipparcos to the [**Digitized Sky Survey**](#DigitizedSkySurvey) and type "Sagittarius Dwarf" into the search text box.
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/SagittariusDwarfGalaxy.jpg) | The Sagittarius Dwarf Elliptical Galaxy is very faint as it currently resides on the opposite side of the galactic core of the Milky Way. It is set to pass through the Milky Way and will probably be absorbed entirely into the larger galaxy.
+| ![](uiimages/SagittariusDwarfGalaxy.jpg) | The Sagittarius Dwarf Elliptical Galaxy is very faint as it currently resides on the opposite side of the galactic core of the Milky Way. It is set to pass through the Milky Way and will probably be absorbed entirely into the larger galaxy.
 
  |
 
 10.  There are at least 10 other satellite galaxies of the Milky Way. Some uncertainly exists over the Large Magellanic Cloud galaxy and its sibling, the Small Magellanic Cloud galaxy. Initial theories that these two were satellites of the Milky Way were revised when the speeds of the two galaxies was calculated to be far too high to be in orbit. Alternative theories include that these galaxies will pass by the Milky Way, or that they will not escape the huge gravitational forces of the Milky Way, and will become satellites. Typing "Large" into the search text box is enough to bring up a range of thumbnails for the Large Magellanic Cloud galaxy.
 
-    | ![](//wwtweb.blob.core.windows.net/docs/uiimages/LargeMagellanicCloud.jpg) | Zoom in on the **Star Forming Region in the Large Magellanic Cloud**. Sometimes classified as irregular, this galaxy may have been a barred spiral galaxy before succumbing to the tidal forces of the gravity of the Milky Way. |
+    | ![](uiimages/LargeMagellanicCloud.jpg) | Zoom in on the **Star Forming Region in the Large Magellanic Cloud**. Sometimes classified as irregular, this galaxy may have been a barred spiral galaxy before succumbing to the tidal forces of the gravity of the Milky Way. |
 
 11.  The galaxy most often quoted as our nearest neighbor is the Andromeda galaxy. This behemoth of a galaxy contains an estimated one trillion stars, and is so bright it is one of the furthest objects (at 2.5 Million light years) that can be seen from Earth with the naked eye. Despite having many more stars than the Milky Way it is calculated to have about the same mass, because of the greater amount of dark matter in the Milky Way. The two giant galaxies are set to collide in the distant future (the subject of a [guided tour](#GuidedTours) in WorldWide Telescope). The Andromeda galaxy is also well known by its Messier Catalog name, M31\. Type "M31" into the search text box.
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/Andromeda.jpg) | The Andromeda galaxy is a classic spiral galaxy. It has at least 19 satellite galaxies in orbit, including M32 highlighted in the image, with M110 - an elliptical galaxy containing millions of stars - visible above the main body. |
+| ![](uiimages/Andromeda.jpg) | The Andromeda galaxy is a classic spiral galaxy. It has at least 19 satellite galaxies in orbit, including M32 highlighted in the image, with M110 - an elliptical galaxy containing millions of stars - visible above the main body. |
 
 13.  The Andromeda and Milky Way galaxies are the two biggest galaxies in a group known as the Local Group. The Local Group has a third big galaxy, Triangulum, and over twenty smaller galaxies, not including the many dwarf galaxies. The whole group is part of the Virgo Supercluster. At about 3 million light years away, Triangulum is the furthest object that can be seen with the naked eye. It is sometimes referred to as the Pinwheel galaxy (though this name is also given to another galaxy, M101), but is most reliably located by its Messier Catalog number, M33\. Note that you will get different search results for each of these three names, even though they can refer to the same object! This is because the search is reliant on the names given to the objects by the creators of the images.
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/Pinwheel.jpg) | The Triangulum, M33 or Pinwheel, galaxy may be remote but it is gravitationally bound to the Andromeda galaxy.
+| ![](uiimages/Pinwheel.jpg) | The Triangulum, M33 or Pinwheel, galaxy may be remote but it is gravitationally bound to the Andromeda galaxy.
 
 Andromeda is in the top right of this image, M33 just inside the boundaries of the constellation Triangulum in the lower center. |
 
 15.  An object in the sky can usually be located by searching on its name, or one of its names, but you can also enter its stellar co-ordinates (known as right ascension or RA, and declination, or Dec). These co-ordinates are similar to longitude and latitude on Earth, though right ascension is often given in hours, minutes and seconds (it can also be given in degrees). Declination is almost always in degrees. The RA and Dec of Triangulum are RA: 1 hour 33 minutes 50 seconds, and Dec: 30 degrees 39 minutes 36 seconds. Enter these simply as `1 33 50`, and `30 39 36` into the RA and Dec boxes in the search panel. Click **Go** to navigate to the location.
 
-    | ![](//wwtweb.blob.core.windows.net/docs/uiimages/PinwheelRADec.jpg) |
-    | ![](//wwtweb.blob.core.windows.net/docs/uiimages/M33.jpg) |
+    | ![](uiimages/PinwheelRADec.jpg) |
+    | ![](uiimages/M33.jpg) |
 
 16.  Triangulum may have a satellite galaxy called the Pisces Dwarf, but searching on this name will not currently reveal the galaxy. However we can locate it using its known right ascension and declination values, so enter `1 03 55` for **RA** and `21 53 06` for **Dec**, and click **Go**.
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/PiscesDwarf.jpg) | The Pisces Dwarf galaxy appears only as the faint cloud between the bright stars at the top and bottom of the image.
+| ![](uiimages/PiscesDwarf.jpg) | The Pisces Dwarf galaxy appears only as the faint cloud between the bright stars at the top and bottom of the image.
 
 This galaxy may be spherical or irregular. The light from the galaxy is blue-shifted, which indicates that it is moving towards the Milky Way. |
 
 18.  All of the galaxies visited so far are part of the Local Group, which makes up a small part of the Virgo Supercluster. This supercluster contains at least 100 galaxy groups, and has a diameter of around 110 million light years. There are millions of superclusters in the known Universe. The Local Group is an outlying group within the Virgo Supercluster. The Virgo Cluster forms the heart of the supercluster, and contains up to 2000 galaxies. Locate the center of the Virgo Cluster be entering **RA** `12 27 00` and **Dec** `12 43 00` into the search panel. Click **Go** to see the last image in this tutorial -- the bright objects in the image are very bright galaxies.
 
-    | ![](//wwtweb.blob.core.windows.net/docs/uiimages/VirgoCluster.jpg) | The elliptical galaxy Messier 87 is one of the brightest galaxies in the Virgo Cluster, and can be seen in the bottom left hand corner of the image. The two other very bright objects are galaxies M84 and M86\. Most of the other bright objects in this image have been identified as galaxies, though a few of the less bright spots remain _unidentified_. |
+    | ![](uiimages/VirgoCluster.jpg) | The elliptical galaxy Messier 87 is one of the brightest galaxies in the Virgo Cluster, and can be seen in the bottom left hand corner of the image. The two other very bright objects are galaxies M84 and M86\. Most of the other bright objects in this image have been identified as galaxies, though a few of the less bright spots remain _unidentified_. |
 
 19.  The nearest supercluster to the Virgo Supercluster is the Hydra-Centaurus Supercluster. It is one of the estimated 10 million superclusters in the Universe. Superclusters may be the largest independent structure in nature, though there are theories that superclusters are subordinate to even more enormous concepts called _walls_ or _sheets_, which can be a billion light years in length. Other theories have the superclusters moving in _rivers_ towards objects with massive gravitational pull. However, a visit to the Virgo Cluster completes this tutorial.
 
@@ -738,7 +851,7 @@ This tutorial shows how to use WorldWide Telescope to plan an evening's astronom
 6.  The sky now displayed by WorldWide Telescope is ready to be viewed. Keep your notebook handy to jot down the altitude and azimuth of any object that might be visible.
 7.  Click on **Search** to bring up the search options again, type **Solar System**, but this time click the checkbox **Plot Results**. Now pan and zoom around the sky to see if any planets will be in view. The best time to observe a planet, neglecting weather conditions, is close to its transit time (when it is at its highest point in the sky).
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/skytonight_jupiterfinder.jpg) |
+| ![](uiimages/skytonight_jupiterfinder.jpg) |
 
 9.  The plotted results for the Solar System will include our own moon. It is a beautiful object to look at and it can be so bright it dominates the night sky. Click the Moon's thumbnail in the search results panel. Now you can see whether the Moon will be above or below the horizon, what phase it will be in, and what other objects it will be near.
 10.  Outside of the Solar System, look for constellations and [asterisms](http://dictionary.reference.com/browse/asterism).
@@ -749,16 +862,16 @@ This tutorial shows how to use WorldWide Telescope to plan an evening's astronom
 
 1.  Look to the north to find the Big Dipper, stars part of the constellation Ursa Major. The ladle of the dipper has two stars that can be used to point to Polaris, the north star. Polaris is very close to the Earth's rotational axis, so it will be in the northern sky at an elevation equal to an observer's latitude all day and night. Polaris is a _Cepheid variable star_, a star with a pulsating outer atmosphere, making it slightly brighter and then dimmer depending mostly on its changing surface area.
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/skytonight_Polaris.jpg) |
+| ![](uiimages/skytonight_Polaris.jpg) |
 
 3.  If it is winter in the northern hemisphere, Orion the great hunter will be climbing through the sky. Easily identifiable by his belt, the surrounding constellations are also interesting. To the west, find Taurus the bull with a red giant eye, Aldeberan. This star is just like the northeastern star of Orion, Betelgeuse. A star further along in its evolution than the Sun, Betelgeuse is no longer fusing hydrogen in its core, but is fusing helium. Hydrogen is still being fused to produce energy, but only in a shell surrounding the core. This is not a very stable method of holding a star up and consequently red giant stars often pulsate trying to establish a steady equilibrium between gravity pulling material inward while the force from photons created in the interior push outward.
 4.  The triangle of stars shown below is sometimes called the winter triangle: (clockwise from upper left) Procyon, Betelgeuse, and Siris. Sirius is part of Canis Major, the larger of Orion's hunting dogs. It's a bright massive star that happens to be relatively close to us, and it's the closest star you can see at night in the northern hemisphere. The bright star south of Sirius in Canis Major, named Wezen, is in contrast one of the most distant stars you can see without a telescope (at 1614 light years away). Sirius and Procyon are both the brighter members of a binary system - they are both in orbit with a white dwarf star, the collapsed core of a star that was once about the size of our Sun.
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/skytonight_wintertriangle.jpg) |
+| ![](uiimages/skytonight_wintertriangle.jpg) |
 
 6.  In the summer, three bright stars make up the summer triangle. Counterclockwise from the left, Deneb, Vega, and Altair. Deneb is an amazing star, a blue super giant that appears bright in our skies even though it is over 1400 light years away. It is the tail of Cygnus the swan. Vega is one of the brightest stars in our night sky and is part of the constellation Lyra, a harp. Arab astronomers had Vega being part of a constellation that was a vulture, making the summer triangle three birds. Altair is part of the constellation Aguilla, the Eagle. These three stars straddle the background Milky Way, the disk of our galaxy. The white cloudy appearance is actually due to many stars and nebulae so distant we can't separate them. You have to be far from a city to see the Milky Way.
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/skytonight_summertriangle.jpg) |
+| ![](uiimages/skytonight_summertriangle.jpg) |
 
 That completes the Sky Tonight tutorial. Take your notes outside at the calculated time, and scan the skies!
 
@@ -768,14 +881,14 @@ That completes the Sky Tonight tutorial. Take your notes outside at the calculat
 
 1.  If you are in the Southern hemisphere, there is an equally great variety of objects to look for. The two galaxies, the Large Magellanic Cloud and Small Magellanic Cloud, may be in view. These galaxies may be satellites of the Milky Way - or may just be passing through - or may even be attempting to pass by but in fact will become satellites. As big as the Large Magellanic Cloud is, it is about one tenth the mass of the Milky Way. These galaxies are fairly close to the bright star Canopus.
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/skytonight_Canopus.jpg) |
+| ![](uiimages/skytonight_Canopus.jpg) |
 
 3.  Of special interest are the closest stars to Earth (at 4.3 light years), the binary system of Alpha Centauri, which might be visible in the constellation Centaurus. To locate it search on its alternative name: Rigil Kentaurus.
 4.  One of the best known formations in the southern skies is the Southern Cross. Use the search options to locate any one of its four stars: Acrux, Becrux, Gacrux or Decrux. Alternatively select **Explore**, then **Constellations**, then click on the **Crux** thumbnail.
 
 The bright star mentioned above, Rigil Kentaurus, along with its nearly-as-bright neighbor Hadar, are visible at the bottom of this image.
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/skytonight_SouthernCross.jpg) |
+| ![](uiimages/skytonight_SouthernCross.jpg) |
 
 7.  The globular cluster Omega Centauri contains millions of stars, many as close as 0.1 light years to each other, and may be the remains of a small galaxy that collided with the Milky Way. It is about 15800 light years from Earth, and appears as a single point of light to us. There is evidence of a black hole at its center. Search for it using its catalog name, NGC5139.
 
@@ -804,14 +917,14 @@ In this tutorial WorldWide Telescope is used to demonstrate the purpose behind s
 
 4.  Open the **Search** panel, enter `0` for **RA** and `0` for **Dec**, then click **Go**.
 
-    | ![](//wwtweb.blob.core.windows.net/docs/uiimages/firstpointofaries.jpg)
+    | ![](uiimages/firstpointofaries.jpg)
     The track of the Sun across the sky is known as the **_ecliptic_**. The First Point of Aries should now be in the middle of your view. |
 
 5.  The right ascension and declination of celestial objects do not change, unless the position of the objects changes relative to the coordinate system which of course they do, but very slowly, so slowly that it is only necessary to revise the coordinate system every 50 years. Each time a coordinate system is fixed, it is called an _epoch_. The current epoch, and the only one supported in WorldWide Telescope, is the **J2000** epoch - namely the position of the celestial objects and coordinate system at Noon on January 1st in the year 2000, at the Royal Observatory, Greenwich, England. The change to the J2000 epoch was made in 1984, as the positions of stars can be predicted accurately in advance of the actual year. There may of course be a change to the J2050 epoch, perhaps sometime after the year 2025.
 
 6.  Of course stars and all other objects do appear to move in the sky, as a result of the rotation and orbit of the Earth. At any one moment the position of an object in the sky can be referenced by its _azimuth_ and _altitude_. Azimuth is similar to longitude or right ascension, in that it is an east-west bearing from true north. Altitude is an angle rather than a distance, it is the angle up or down from the horizon. By convention positive azimuth is to the east, negative to the west, and positive altitude is up from the horizon. Unlike right ascension and declination, azimuth and altitude change continuously. For example, open the **Search** panel, then enter **Sirius** in the search text box. When the bright star Sirius appears, zoom away from it until the view is from Earth (that is, minimize the zoom completely). Right-click on Sirius in the sky to bring up the [Finder Scope](#TheFinderScope).
 
-    | ![](//wwtweb.blob.core.windows.net/docs/uiimages/azimuthaltitude.jpg) |
+    | ![](uiimages/azimuthaltitude.jpg) |
 
     Note that the seconds values for the Altitude (**Alt**) and Azimuth (**Az**) of Sirius are changing, even when you look at the star in real time.
 
@@ -825,7 +938,7 @@ In this tutorial WorldWide Telescope is used to demonstrate the purpose behind s
 
 8.  The **Distance** entry on the **Finder Scope** is the distance to the object in _light years_. A light year is an enormous distance. The speed of light in a vacuum is 186,282.397 miles per second (a _light second_), which works out to just under six trillion miles per year, approximately 5,878,500,000,000 (186.282.397 x 60 x 60x 24 x 365.2424) miles. The Sun is about 500 light seconds from Earth, the next nearest star is 4.2 light years away, or over 24 trillion miles. Occasionally space telescopes pick up events that help us visualize how sizeable a light year is in relation to the cosmos. For example, click **Explore**, then **Hubble Studies**, then click **Supernova1987A** .This will bring up a range of seven thumbnails. Click on the fifth, **Supernova1987A - 28th November 2003**. Now click on the sixth thumbnail, **Supernova1987A - 12th December 2004**.
 
-    | ![](//wwtweb.blob.core.windows.net/docs/uiimages/Supernova2003.jpg) | ![](//wwtweb.blob.core.windows.net/docs/uiimages/Supernova2004.jpg) | Though not taken exactly one year apart these two supernova images just might be showing one light year in the increased radius of the explosion. |
+    | ![](uiimages/Supernova2003.jpg) | ![](uiimages/Supernova2004.jpg) | Though not taken exactly one year apart these two supernova images just might be showing one light year in the increased radius of the explosion. |
 
 9.  The light year is the most common unit of measurement in astronomy, but not the only one. Open the **Search** panel, then enter **Neptune** into the search text box. Click the thumbnail to show the planet, then right-click on the planet image itself to bring up the **Finder Scope**. For **Distance**, note that it is set at 29 _au_ (astronomical units). One astronomical unit is the mean distance from the Earth to the Sun. This unit of measurement is much smaller than a light year, and is useful within solar systems. The distance of 29 au to Neptune is the distance from Earth to Neptune at a specific point in time, the measurement will slowly vary as the planets orbit.
 
@@ -833,21 +946,21 @@ In this tutorial WorldWide Telescope is used to demonstrate the purpose behind s
 
 11.  In the **View** panel select the **Observing Location** (New York in the example below), and check **View from this location**. This will ensure we have a horizon line (rising and setting are obviously meaningless without one). Next, in the **Search** panel text box, enter **Moon**. Click on the thumbnail for a close-up view of the moon, then zoom out till the horizon line is in view. Next, bring up the **View** panel again, and in the **Observing Time** pane, accelerate the time to **x1000**. You will notice the moon rise and set fairly rapidly. By carefully pausing or slowing the simulated time down, you should be able to match the rising and setting times with those on the **Finder Scope.**
 
-    | ![](//wwtweb.blob.core.windows.net/docs/uiimages/Moonrise.jpg) | Moonrise in New York.
+    | ![](uiimages/Moonrise.jpg) | Moonrise in New York.
 
     Rise, transit and set times are given in local time, not UTC. Notice that the **Observing Time** of 21:56:11 is just a minute after the **Rise** time in the **Finder Scope**.
      |
 
 12.  Occasionally, instead of rise, transit and set times you will see the word _Circumpolar_. This means that the object will not go below the horizon, and so will not rise or set but will be in view all of the time. This happens when the object is near one of the celestial poles. For example, go to **Observing Location**, and instead of selecting a city simply enter some extreme coordinates (for example Latitude 80 degrees, Longitude 0 degrees as shown in the image below). Then search for and locate the Sun. Depending on the time of year and location, the Sun can become circumpolar, as in the example.
 
-    | ![](//wwtweb.blob.core.windows.net/docs/uiimages/Circumpolar.jpg)
+    | ![](uiimages/Circumpolar.jpg)
     Accelerate simulated time to **x1000** or **x10000** to show that the Sun does not dip below the horizon, but instead casts an ellipse in the sky. |
 
 13.  For a near perfect example of circumpolar activity select a northerly location, use the search options to find Polaris, then zoom out. Next, accelerate the simulated time rapidly. Note that the star remains almost stationary in the sky as everything else rotates. Similarly for the southern skies, select a southern city, search for Polaris Australis, and again watch as it stays almost stationary in the sky. These two stars are examples of _pole stars_. Although Polaris is often referred to as _the_ pole star, it is in fact just one of many, which change over time, that hardly move in the sky and act as great aids to navigation. The main reason why pole stars change over time is due to the Earth's _precession_. Precession is the gradual shift in an object's rotational axis or orbit. Earth's precession is induced by the gravity of the other planets, causing the Earth to wobble on its axis cyclically over a period of 26000 years. It is because of precession that the epochs mentioned earlier, such the current J2000,are required. It is also because of precession that the First Point of Aries, mentioned in step 2 of this tutorial, is currently in Pisces. When the equinoxes were first recognized thousands of years ago, this point did lie in Aries! In about the year 2600 it will cross into Aquarius.
 
 14.  The J2000, also known as the [equatorial coordinate system](http://en.wikipedia.org/wiki/Equatorial_coordinate_system), uses right ascension, declination, and the J2000 epoch. You will find the J2000 coordinate system to be the most useful, but there are also other coordinate systems. In the **Search** panel there are options for **J2000**, **Azimuth and Altitude**, **Ecliptic** and **Galactic** coordinate systems. The Ecliptic coordinate system uses the Sun's ecliptic circle as the celestial equator, rather than a projection of the Earth's equator. Try changing the coordinate system from **J2000** to **Galactic**. The galactic coordinate system is based on a line from the Sun to the center of the Milky Way, with a celestial equator in line with the galactic plane. The Sun rotates about the center of the Milky Way at a speed of about 220 kilometers per second in an imperfect circle, and one rotation is called a **galactic year**. It takes around 230 million Earth years to complete one galactic year. Now enter zero for both lambda (λ) and beta (β), then click **Go**. You should now be looking at the center of the Milky Way.
 
-    | ![](//wwtweb.blob.core.windows.net/docs/uiimages/CenterofMilkyWay.png)
+    | ![](uiimages/CenterofMilkyWay.png)
     The center of the Milky Way is 25,000 light years distant, in Sagittarius, shown here using the Digitized Sky Survey.
 
     The actual center is not visible at most wavelengths, because of the presence of dust, but is now known to be a supermassive black hole. |
@@ -876,7 +989,7 @@ Explore the images sent back by manned and unmanned space vehicles.
 Use **View > Reset Camera** to restore the default view and settings.
 
 | The Apollo 12 landing site panorama provides some close up detail of the moon surface: |
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/Panorama.jpg) |
+| ![](uiimages/Panorama.jpg) |
 
 #### See Also
 
@@ -907,26 +1020,26 @@ There is much less expanse to explore in panoramas than in the other viewing opt
 1.  Ensure that **Panorama** is selected in the **Look At** list.
 2.  In the **Imagery** list select **Pathfinder: Many Rovers**. As only one Rover was present on this mission to Mars it is clear this is a composite of many individual images. If you scroll down you can see the airbags that were used to cushion the probe's landing. This was required because of the rock strewn landscape. The rover, named _Sojourner_, is only 25 inches long.
 
-    | ![](//wwtweb.blob.core.windows.net/docs/uiimages/Panorama_ManyRovers.jpg) |
+    | ![](uiimages/Panorama_ManyRovers.jpg) |
 
 3.  Taking panoramic photographs is one of the objectives of unmanned missions. However, discerning detail from a camera at a low elevation and at a fixed point can be problematic. One method of addressing this is to increase the contrast by coloring the image. In the **Imagery** list scroll down to **Opportunity: Endurance South (false color)**. Compare this with the **Opportunity: Endurance South** panorama, which lacks added color, to understand why researchers color images. Notice how the false color image makes certain details much more visible!
 
-    | ![](//wwtweb.blob.core.windows.net/docs/uiimages/Panorama_FalseColor.jpg) |
+    | ![](uiimages/Panorama_FalseColor.jpg) |
 
 4.  To see another method of highlighting landscape, scroll in the **Imagery** list to **Opportunity: Lyell**. Rotate the view until the large crater is in view, shown in the following image:
 
-    | ![](//wwtweb.blob.core.windows.net/docs/uiimages/Panorama_Lyell.jpg) |
+    | ![](uiimages/Panorama_Lyell.jpg) |
 
 5.  Now load the **Opportunity: Lyell (stereo)** imagery, and using a pair of red and cyan glasses, pan to the same location in the stereo view. The escarpment certainly stands out!
 6.  Even though the exploratory spacecraft were equipped with panoramic cameras, most panoramas have dark zones where no images were taken. Typically these dark zones are looking straight up and straight down, though some panoramas are only partial. Try **Opportunity: Burns Cliff**, shown below. for example.
 
     Note that if you load a panorama and see only black background, rotate the view as the panorama may only be partial.
 
-    | ![](//wwtweb.blob.core.windows.net/docs/uiimages/Panorama_Cliff.jpg) |
+    | ![](uiimages/Panorama_Cliff.jpg) |
 
 7.  Scroll in **Imagery** to the **Opportunity: Erebus** panorama. At first the panorama appears complete, but see if you can find the missing piece. Note the solar panels that cover the spacecraft:
 
-    | ![](//wwtweb.blob.core.windows.net/docs/uiimages/Panorama_Erebus.jpg) |
+    | ![](uiimages/Panorama_Erebus.jpg) |
 
 #### See Also
 
@@ -942,7 +1055,7 @@ Use **Solar System** view to explore the Solar System in three dimensions. Zoom 
 
 *   Click and drag to rotate the planet.
 *   Use the **Planet Size** slider to increase or decrease the size of the Sun and planets.
-    ![](//wwtweb.blob.core.windows.net/docs/uiimages/3Dsolarsystem.jpg)
+    ![](uiimages/3Dsolarsystem.jpg)
 *   Use the mouse wheel to zoom in and out.
 *   To tilt the field of view **CTRL + click** and drag vertically.
 *   To rotate the field of view **CTRL + click** and drag horizontally.
@@ -951,17 +1064,17 @@ Use **View > Reset Camera** to restore the default view and settings.
 
 Basic navigation is much easier using the lower panel thumbnails as the starting point, as there are only one star, nine planets, and five moons to choose from!
 
-![](//wwtweb.blob.core.windows.net/docs/uiimages/3Dsolarsystem2.jpg)
+![](uiimages/3Dsolarsystem2.jpg)
 
 | Three of the most visited objects in the virtual Universe, the Earth, the Moon and Saturn. For this particular image planet size is magnified to the maximum: |
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/EarthMoonSun.jpg) |
+| ![](uiimages/EarthMoonSun.jpg) |
 |
 
 Refer to the [3d Solar System](#3dSolarSystem) settings in the **View** pane. Of great interest is the [Observing Time](#ObservingTime) pane, which enables the planets to be set in motion (more rapidly than in real time) and orbits to be observed, and also, for expert users of WorldWide Telescope, eclipse times and locations to be identified (see the [Tutorial: Tracking a Solar Eclipse](#TutorialTrackingaSolarEclipse)).
 
 Use the mouse wheel to zoom out from the Solar System to view the Cosmos, pausing on the way to look at the Milky Way, noted for its two large spiral arms. The crosshairs show the position of the Solar System.
 
-![](//wwtweb.blob.core.windows.net/docs/uiimages/milkyway.jpg)
+![](uiimages/milkyway.jpg)
 
  |
 
@@ -1002,7 +1115,7 @@ A solar eclipse occurs when the Moon passes in front of the Sun, as seen from so
 9.  Now rotate the Earth with the mouse until central Africa is in view. Zoom in a little to see the shadow of the Moon more clearly.
 10.  Carefully use the fast forward button (setting it to **x100**) in the **Observing Time** panel to view the shadow as it moves across the continent. It should look similar to the following image as it passes Lake Victoria (at a time of 12.52.05 UTC):
 
-    | ![](//wwtweb.blob.core.windows.net/docs/uiimages/Eclipse.jpg) |
+    | ![](uiimages/Eclipse.jpg) |
 
 To see the same eclipse but in the **Sky** view use the following procedure:
 
@@ -1014,8 +1127,8 @@ To see the same eclipse but in the **Sky** view use the following procedure:
 6.  Zoom in a little to view the Sun and Moon a bit more closely.
 7.  Accelerate the time to **x100** to view the eclipse. You may have to pan the screen a bit to keep the eclipse in view.
 
-    | ![](//wwtweb.blob.core.windows.net/docs/uiimages/PartialEclipse.jpg) |
-    | ![](//wwtweb.blob.core.windows.net/docs/uiimages/TotalEclipse.jpg) |
+    | ![](uiimages/PartialEclipse.jpg) |
+    | ![](uiimages/TotalEclipse.jpg) |
 
 Note that lunar eclipses (where the Earth passes in front of the Moon which turns the Moon's appearance a shade of red) are not currently implemented in WorldWide Telescope.
 
@@ -1044,13 +1157,13 @@ This section describes how to add your own 3D models to WorldWide Telescope.
 
 1.  Right-click on "Sandbox" in the layer manager and select **Add**.
 
-    ![](//wwtweb.blob.core.windows.net/docs/uiimages/ex_Sandbox-add.png)
+    ![](uiimages/ex_Sandbox-add.png)
 
 2.  Navigate to the OBJ or 3DS file you want to load. WWT scans the file and looks at the bounds of the model to scale it into the viewable 3D space. In this example we loaded [magnolia.obj](http://people.sc.fsu.edu/~jburkardt/data/obj/magnolia.obj).
 
 3.  Right-click the item in layer manager and select **Properties**. Here you can position the object within the sandbox space.
 
-    ![](//wwtweb.blob.core.windows.net/docs/uiimages/ex_3d-model-properties.png)
+    ![](uiimages/ex_3d-model-properties.png)
 
 When the **Properties** dialog is active, click and drag the colored arrows to position the selected object:
 
@@ -1058,7 +1171,7 @@ When the **Properties** dialog is active, click and drag the colored arrows to p
 *   Green: Y axis
 *   Blue: Z axis
 
-![](//wwtweb.blob.core.windows.net/docs/uiimages/ex_3d-model-xyz.png)
+![](uiimages/ex_3d-model-xyz.png)
 
 You can load multiple models and have them placed in a common coordinate system by making some invisible geometry at the same boundaries in 3D space for all models.
 
@@ -1099,7 +1212,7 @@ The following keys are alternatives to using the mouse or joystick in any view, 
 
 As an alternative to using the mouse, a USB wired Xbox controller can be used to navigate the view. Simply plug in the Xbox controller and appropriate device driver software will be located and installed.
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/XboxController.jpg) |
+| ![](uiimages/XboxController.jpg) |
 
 The following table provides the purpose of the controller buttons:
 
@@ -1135,14 +1248,14 @@ Other compatible joystick controllers can also be used. If more than one is conn
 
 Clicking on the down arrow below **Explore** opens up the menu entries.
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/ui_win_Explore-Menu.png)
+| ![](uiimages/ui_win_Explore-Menu.png)
  | The **New** options start a new data collection of images, or initiate the [tour creation process](#CreatingaTour).
 
-![](//wwtweb.blob.core.windows.net/docs/uiimages/ExploreMenuEntries2.jpg)
+![](uiimages/ExploreMenuEntries2.jpg)
 
 The **Open** options enable the opening of a tour, a data collection, an image (which will be placed in the sky if it includes AVM metadata, or simply centered if there is no such data) and, for astronomers only, a [Virtual Observatory Table](#VirtualObservatoryTables). Finally there is an option to load ESRI Shape Files.
 
-![](//wwtweb.blob.core.windows.net/docs/uiimages/ui_win_Explore-Menu-Submenu-Open.png)
+![](uiimages/ui_win_Explore-Menu-Submenu-Open.png)
 
 Clicking **Show Finder** will bring up [The Finder Scope](#TheFinderScope).
 
@@ -1182,11 +1295,11 @@ To display the range of tours supplied with WorldWide Telescope, click on **Guid
 
 To play a tour, click the thumbnail:
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/Tours_Playing.jpg) |
+| ![](uiimages/Tours_Playing.jpg) |
 
 Alternatively, hover the mouse over the thumbnail so that the tour properties appear, and then press the play arrow:
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/Tours_Properties.jpg) |
+| ![](uiimages/Tours_Properties.jpg) |
 
 To pause a tour, click the Escape key. You are then free to explore at will. When a tour is playing the top and lower panes are hidden. To bring these panes into view, simply hover the mouse over where they normally appear.
 
@@ -1194,19 +1307,19 @@ To restart the tour, press the play arrow in the top left corner of the screen. 
 
 Note the thumbnails in the top panel show the tour stops (the large **M** that appears in the first image indicates that this is a master slide - refer to [Creating a Tour](#CreatingaTour) for more details).
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/Tours_Running.jpg) |
+| ![](uiimages/Tours_Running.jpg) |
 
 To cancel a tour, click the **X** by the tour name in the menu bar:
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/Tours_closing.jpg) |
+| ![](uiimages/Tours_closing.jpg) |
 
 To close a tour after it has completed, either click the **X** by the tour name, or the **Close Tour** button that appears in the final credits. In order to transmit your rating of the tour, click on one or more stars. If you enter too many stars and reconsider your opinion, click the star to the left to reduce the number of stars. Click **Close Tour** and this rating will be included in the average rating presented to other users.
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/TourRating.jpg) |
+| ![](uiimages/TourRating.jpg) |
 
 To navigate the folders of tours click on the thumbnails to open up folders and tours,  and click on the text to step back. For example, clicking **Nebula** in the image below will close that folder and go back to display th<span class="style2">e contents of the higher level</span> **Tours** folder:
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/Tours_Navigation.jpg) |
+| ![](uiimages/Tours_Navigation.jpg) |
 
 ###### Notes
 
@@ -1231,7 +1344,7 @@ Creating your own tour can be as simple as annotating a few images showing deep 
 
 To create a tour, click **Guided Tours > Create a New Tour...**, or **Explore > New > Slide-based Tour...,** which has the same effect. The first thing that you will see is the **Tour Properties** dialog. Give the new tour a title (with a recommended limit of 35 characters, otherwise the title will be resized or truncated), and add as many of the properties as you can now. However these properties can be edited later, and some of the details may well not be finalized until you have completed the content of the tour.
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/Tours_New_Properites.jpg) | The information entered into this dialog is for informational purposes for the users that might run the tour.
+| ![](uiimages/Tours_New_Properites.jpg) | The information entered into this dialog is for informational purposes for the users that might run the tour.
 
 The author image should measure 70 pixels wide by 94 in height.
 
@@ -1243,7 +1356,7 @@ The [WorldWide Telescope Data Files Reference](http://www.worldwidetelescope.org
 
 Click **OK** to close the Tour Properties dialog and bring up the tour editing pane:
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/Tours_New_Edit.jpg) |
+| ![](uiimages/Tours_New_Edit.jpg) |
 
 Adding slides to your tour could hardly be easier. Simply navigate to where you want to be and click **Add a Slide**. Note that when you do this a thumbnail image of the current view is taken, and added to your tour. You can change the view using the **Look At** and **Imagery** lists between slides though if you do the tour will jump sharply from one image to the next and not scroll smoothly.
 
@@ -1255,12 +1368,12 @@ The key editing elements are to the right of the image above. **Tour Properties*
 
     Click **Save** to add the text to the slide. Then use the resize and rotate handles as necessary.
 
-    | ![](//wwtweb.blob.core.windows.net/docs/uiimages/Tours_New_Text.jpg)
+    | ![](uiimages/Tours_New_Text.jpg)
     To select white as a color, click on any of the white space around the color picker. The two colored boxes at the bottom of the color picker show the old and new colors respectively. |
 
 *   **Shapes**: Circles, rectangles, open rectangles, rings, lines, arrows and stars are supported shapes. Once added to the screen, edit some of their properties using the right click menu shown below.
 
-    | ![](//wwtweb.blob.core.windows.net/docs/uiimages/Tours_New_ShapesMenu.jpg) | Use the **Bring to...** and **Send...** options to layer multiple images appropriately.
+    | ![](uiimages/Tours_New_ShapesMenu.jpg) | Use the **Bring to...** and **Send...** options to layer multiple images appropriately.
 
     Selecting the **Color/Opacity** entry will bring up the color picker dialog shown above.
 
@@ -1274,8 +1387,8 @@ The key editing elements are to the right of the image above. **Tour Properties*
 
 Some editing options are not quite so visible. Right click on a slide to bring up a menu with a range of detailed options:
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/Tours_New_SlideMenu.jpg)
-![](//wwtweb.blob.core.windows.net/docs/uiimages/ui_win_Date-Time-Selection.png)
+| ![](uiimages/Tours_New_SlideMenu.jpg)
+![](uiimages/ui_win_Date-Time-Selection.png)
 **Merge Tour after slide...** will insert another tour to become part of the tour being edited.
 
 To set the start and end camera position for a slide, simply navigate to the required angle, then click **Set Start Camera Position**. Then navigate to the required ending angle, and click **Set End Camera Position**. When the slide is shown in the tour, the view will smoothly animate from the starting to ending positions.
@@ -1296,7 +1409,7 @@ To add a slide for a particular time -- say to capture an eclipse or a crescent 
 
 By default each slide will appear for 10.0 seconds. To change this click on the pane just below each slide, and use the up and down arrows to change the number of seconds.
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/Tours_New_Secs.jpg) | As an alternative to using the up and down arrows, mouse over the time itself, and edit the numbers by hand.
+| ![](uiimages/Tours_New_Secs.jpg) | As an alternative to using the up and down arrows, mouse over the time itself, and edit the numbers by hand.
 
 Note that the time taken for a tour is greater than the sum total of times for each slide, as the transition times from one slide to another are included in the total run time. |
 
@@ -1312,7 +1425,7 @@ To make a slide a master slide, right click to bring up the context menu, then s
 
 To add a title to a slide, click on the area below the thumbnail but inside the yellow bounding rectangle, and type up to 15 characters as a title, for example:
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/Tours_New_SlideTitle.jpg) | Note that a selected slide can be dragged and dropped to a new location in the displayed list of slides. |
+| ![](uiimages/Tours_New_SlideTitle.jpg) | Note that a selected slide can be dragged and dropped to a new location in the displayed list of slides. |
 
 #### Control Views and Settings
 
@@ -1324,7 +1437,7 @@ To change current view settings for your slides, go into the **View** or **Setti
 
 Click **Save** in the tour editing pane to save off the tour at any stage. Close the tour when it is completed by clicking the **X** by the name in the menu bar:
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/Tours_New_Closing.jpg) |
+| ![](uiimages/Tours_New_Closing.jpg) |
 
 #### <a name="SharingtheTour">Sharing the Tour</a>
 
@@ -1352,20 +1465,20 @@ Scenarios for interactive tours include providing "Back" buttons in normal tours
 
 The following images shows a typical menu system that might appear in a quiz. The blue text entries are all links to other slides. The white text entries are not linked to other slides.
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/InteractiveTourMenu.jpg)
+| ![](uiimages/InteractiveTourMenu.jpg)
 The question (or menu) slide. |
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/InteractiveTourWrong.jpg)
+| ![](uiimages/InteractiveTourWrong.jpg)
 Three text entries in the question slide are linked to the "Wrong" answer slide: Mars, Mercury and Pluto.
 
 The "Try again" text will return the user to the question slide. |
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/InteractiveTourCorrect.jpg)
+| ![](uiimages/InteractiveTourCorrect.jpg)
 Only the correct text entry on the question slide is linked to the "Correct" answer slide: Venus.
 
 The "This is Venus" text will more the user onto the next question. |
 
 In order to create the menu system shown above, _first_ create all the required slides with the appropriate text on them. Next right click on each text entry in turn, and click on **Link to Slide**, this will bring up the following dialog:
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/InteractiveTourSelectLink.jpg)
+| ![](uiimages/InteractiveTourSelectLink.jpg)
 Slides can be linked to another specific slide with the **Link to Slide (Select below)**  option. This is the appropriate selection for all the menu entries - linking "Venus" to the correct slide, and the rest to the "Wrong" slide.
 
 The "Wrong" slide may be used many times, so its "Try again" text should be linked to **Return to Caller** - so the user will be returned to the question they got wrong.
@@ -1391,13 +1504,13 @@ Any of the overlays - text, shapes or pictures - can be turned into active links
 
 Clicking on the down arrow below **Guided Tours** opens up the menu entries.
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/GuidedTourMenuEntries.jpg)
+| ![](uiimages/GuidedTourMenuEntries.jpg)
  | **Tour Home**, **Tour Search Web Page**, and **Music and other Tour Resource** link to Microsoft Research WorldWide Telescope websites.
 
 To play tours in demo mode (that is, in a continuous loop) select **Auto Repeat** then one of:
 **One**: play the selected tour continuously
 **All**: start with the selected tour, and cycle through the other tours in the top pane continuously.
- ![](//wwtweb.blob.core.windows.net/docs/uiimages/GuidedTourMenuEntries2.jpg)
+ ![](uiimages/GuidedTourMenuEntries2.jpg)
 
 **Undo** and **Redo** are enabled appropriately while editing a tour. |
 
@@ -1425,7 +1538,7 @@ You can also create your own community, populate it with items that are of speci
 
 Joining a public community can be done both from the community menu, and from the community collection, by selecting **Join a Community**. This will link you to the WorldWide Telescope website:
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/CommunityWebPage.jpg) |
+| ![](uiimages/CommunityWebPage.jpg) |
 
 Click the links on this website to join one or more communities. After you join a community, its logo displays in the top panel when you select **Communities** and when you want to connect to it, just click the thumbnail logo, and enter any log in information, if necessary.
 
@@ -1477,7 +1590,7 @@ You must be connected to the internet in order for this feature to work.
 
 You can open the Search panel by clicking **Search** in the upper panel.
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/SearchPanel1.png)
+| ![](uiimages/SearchPanel1.png)
 
 To search on a name, such as _Polaris_ or _M51_, enter it in the text box top left. As you type the characters the search will be automatic and display thumbnails as image data is found.
 
@@ -1497,7 +1610,7 @@ Alternatively, enter an **RA** and **Dec** if you know the approximate location 
 
 Click the down arrow below **Search** to expand the menu.
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/SearchMenuEntries.png) |
+| ![](uiimages/SearchMenuEntries.png) |
 
 *   **SIMBAD Search...** enables you to search the SIMBAD database by name. If a matching item is found the view will change to the location provided in the database.
 
@@ -1533,16 +1646,16 @@ The **View** pane and menu entries contain a range of settings that affect the c
 
 The entries in the **Observing Location** box apply only to the [Sky](#ExploreSky) view.
 
-![](//wwtweb.blob.core.windows.net/docs/uiimages/ui_win_Observing-Location.png)
+![](uiimages/ui_win_Observing-Location.png)
 
-![](//wwtweb.blob.core.windows.net/docs/uiimages/ui_win_Observing-Location-Options.png)
+![](uiimages/ui_win_Observing-Location-Options.png)
 
 The **Observing Location** pane is used to set the viewpoint on Earth. You can either select a **Data Set** and **Region** to obtain the viewpoint from a particular city (such as Quito, Ecuador as shown in the example), or you can simply enter a longitude, latitude and elevation.
 
 Check the **View from this location** checkbox to view from the selected location. Note the position of the horizon line. To show the full sky without the horizon line, uncheck the **View from this location** checkbox.
 
 | View from Quito, Ecuador:
-![](//wwtweb.blob.core.windows.net/docs/uiimages/ui_Quito-View.png) |
+![](uiimages/ui_Quito-View.png) |
 
 <a name="ViewingfromaNewLocation"></a>
 
@@ -1564,8 +1677,8 @@ Changing the observing location does _not_ change the observing time to local ti
 
 The entries in the **Observing Time** box apply to the [Sky](#ExploreSky) and [Solar System](#ExploreSolarSystem) views.
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/ui_win_Observing-Time.png)
-![](//wwtweb.blob.core.windows.net/docs/uiimages/ui_win_Date-Time-Selection.png) |
+| ![](uiimages/ui_win_Observing-Time.png)
+![](uiimages/ui_win_Date-Time-Selection.png) |
 
 Use the **Observing Time** pane to change the time of the current view, or to greatly accelerate or decelerate the simulated time. The movement applies to the Sun, and the planets and moons of the Solar System. To set the observing time, click the down arrow next to the currently displayed time and date. Click the pin icon to keep the **Observing Time** dialog open.
 
@@ -1585,7 +1698,7 @@ One specific use of this feature is in viewing the shadows from past or future s
 
 Click the down arrow below **View** to open the view menu entries.
 
-![](//wwtweb.blob.core.windows.net/docs/uiimages/ui_win_View-Menu-Entries.png)
+![](uiimages/ui_win_View-Menu-Entries.png)
 
 *   **Reset Camera** sets WorldWide Telescope to the current default view.
 
@@ -1597,7 +1710,7 @@ Click the down arrow below **View** to open the view menu entries.
 
     *   **Startup Look At** lets you choose the default view to use at start up.
 
-    ![](//wwtweb.blob.core.windows.net/docs/uiimages/ui_win_Startup-Look-At.jpg)
+    ![](uiimages/ui_win_Startup-Look-At.jpg)
 
     *   **Copy Current View Image** takes a snapshot of the current view (without UI elements) and copies it to the clipboard. You can then paste the image into another application such as an image editor or email.
 
@@ -1609,35 +1722,35 @@ Click the down arrow below **View** to open the view menu entries.
 
     *   **Export Current View as STL File for 3D Printing...** exports a selected portion of planetary surface in the [STL](http://en.wikipedia.org/wiki/STL_%28file_format%29) file format. The portion to export is highlighted by a dashed yellow box. This setting is only applicable to the **Earth** and **Planet** views.
 
-    ![](//wwtweb.blob.core.windows.net/docs/uiimages/ui_win_Export-STL-for-3D-Printing.png)
+    ![](uiimages/ui_win_Export-STL-for-3D-Printing.png)
 
     *   **Screen Broadcast...** broadcasts the screen contents from local applications to show up on the projected display as a window. Note that this feature is only functional in a multi-channel environment.
 
-    ![](//wwtweb.blob.core.windows.net/docs/uiimages/ui_win_Screen-Broadcast.png)
+    ![](uiimages/ui_win_Screen-Broadcast.png)
 
     *   **Image Stack** displays a set of thumbnails on the right side of the screen, showing the current imagery in use.
 
-    ![](//wwtweb.blob.core.windows.net/docs/uiimages/ui_win_Image-Stack.png)
+    ![](uiimages/ui_win_Image-Stack.png)
 
     *   **Stereo** lets you choose options for 3D viewing. **Anaglyph** requires the use of red and cyan, or blue and yellow, 3D glasses. The **Side by Side** options are used with twin projectors.
 
-    ![](//wwtweb.blob.core.windows.net/docs/uiimages/ui_win_Stereo.png)
+    ![](uiimages/ui_win_Stereo.png)
 
     *   **Full Dome** sets WorldWide Telescope to display in [full dome](http://en.wikipedia.org/wiki/Talk%3AFulldome) mode, suitable for immersive dome-based video projection environments such as those used in planetariums.
 
-    ![](//wwtweb.blob.core.windows.net/docs/uiimages/ui_win_Full-Dome.png)
+    ![](uiimages/ui_win_Full-Dome.png)
 
     *   **Toggle Full Screen Mode (F11)** toggles full-screen display mode. In full-screen mode the main view takes up the entire screen while menus and panels are hidden. You can also use the F11 key to toggle full-screen mode.
 
     *   **Multi-Sample Antialiasing** enables or disables anti-aliasing in the main display. This can have a smoothing effect on the display. The default setting is **Four Samples**.
 
-    ![](//wwtweb.blob.core.windows.net/docs/uiimages/ui_win_Multi-Sample-Antialiasing.png)
+    ![](uiimages/ui_win_Multi-Sample-Antialiasing.png)
 
     *   **Lock Vertical Sync** synchronizes the screen refresh rate with the frame rate to prevent screen tearing.
 
     *   **Target Frame Rate** sets the target frame rate for the main display. Reduce this setting if the display does not pan, zoom or move smoothly on your system. The default setting is **60 FPS**.
 
-    ![](//wwtweb.blob.core.windows.net/docs/uiimages/ui_win_Frame-Rate.png)
+    ![](uiimages/ui_win_Frame-Rate.png)
 
 #### See Also
 
@@ -1655,7 +1768,7 @@ Using the **Settings** panel and menu, you can control settings that affect the 
 *   [Network and Cache](#NetworkandCache)
 *   [Settings Menu Entries](#SettingsMenuEntries)
 
-![](//wwtweb.blob.core.windows.net/docs/uiimages/ui_win_Settings-Panel.png)
+![](uiimages/ui_win_Settings-Panel.png)
 
 #### See Also
 
@@ -1667,7 +1780,7 @@ Using the **Settings** panel and menu, you can control settings that affect the 
 
 The **Constellation Lines** settings apply only to the [Sky](#ExploreSky) view.
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/ui_win_Constellation-Lines.png) |
+| ![](uiimages/ui_win_Constellation-Lines.png) |
 
 Use the **Constellation Lines** pane to create your own library of constellation figures. These are the lines that by default are shown in red, and map out the figures that the constellations are most famous for (the W of Cassiopeia, for example). To create your own library (which does not delete or replace the default library) go through the following steps:
 
@@ -1693,7 +1806,7 @@ When you next run WorldWide Telescope, the new figure set will be available in t
 
 The **Experience** settings apply to all of the views, and contain settings that affect mouse operation, panning and zooming, and the appearance of the user interface.
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/ui_win_Settings-Experience.png)
+| ![](uiimages/ui_win_Settings-Experience.png)
 
 *   **Zoom Speed** changes the rate at which the view is zoomed when using the mouse wheel.
 *   **Image Quality** adjusts the sharpnetss of the view. This setting is not often apparent, except when viewing the Earth close up.
@@ -1717,8 +1830,8 @@ The **Experience** settings apply to all of the views, and contain settings that
 
 Use the **Network and Cache** settings to control internet connection settings. These settings apply to all views.
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/ui_Network-Cache.png)
-![](//wwtweb.blob.core.windows.net/docs/uiimages/ui_Manage-Data-Cache.png) |
+| ![](uiimages/ui_Network-Cache.png)
+![](uiimages/ui_Manage-Data-Cache.png) |
 
 A proxy server is not used by default, and the default port used to connect to the internet is port 80\. Change these settings only if necessary.
 
@@ -1736,14 +1849,14 @@ Use **Manage Data Cache** to clear local copies of images, tours or catalogs. Mo
 
 Click the down arrow below **Settings** to open up the menu entries.
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/ui_win_Settings-Menu-Items.png)
+| ![](uiimages/ui_win_Settings-Menu-Items.png)
 
 *   **Check for Updates...** detects whether you are running the latest version of WorldWide Telescope.
 *   **Product Support...** links to the WorldWide Telescope support page.
 *   **Restore Defaults** restores the default settings in the **View** and **Settings** menus, but does not adjust the current **Observing Time**.
 *   **Advanced** brings up a sub-menu with options for controlling the download queue, displaying performance data, and more.
 
-    ![](//wwtweb.blob.core.windows.net/docs/uiimages/ui_win_Advanced-Settings-Menu.png)
+    ![](uiimages/ui_win_Advanced-Settings-Menu.png)
 
     *   **Show Download Queue** shows the current image tiles being downloaded. The queue can be stopped, started again, flushed (all items are removed from the queue) and cleared (all items are removed from memory). Refer also to the section on the [Network and Cache](#NetworkandCache).
     *   **Start Queue** starts the download queue.
@@ -1762,7 +1875,7 @@ Click the down arrow below **Settings** to open up the menu entries.
 *   **Remote Access Control...** lets you set up WorldWide Telescope for remote access from another networked computer.
 *   **Select Your Language...** changes the language of the user interface.
 *   **Regional Data Cache...** enables you to enter a URL for a local data cache. This is handy for classes and groups. Data is downloaded only once to the local cache, which participants can then access. Each user will need to enter the URL one time. The URL is used until the setting is cleared.
-    ![](//wwtweb.blob.core.windows.net/docs/uiimages/shareddatacache.jpg)
+    ![](uiimages/shareddatacache.jpg)
     For more details refer to [Regional Data Cache](#RegionalDataCache).
 
  |
@@ -1796,42 +1909,42 @@ The first step in controlling a physical telescope is to install the ASCOM softw
 
 1.  Click on **Telescope** to open up the telescope panel. Note the ASCOM logo to the far right of the panel, with the words **Not Installed** underneath it.
 
-    | ![](//wwtweb.blob.core.windows.net/docs/uiimages/ASCOMNotInstalled.jpg) |
+    | ![](uiimages/ASCOMNotInstalled.jpg) |
 
 2.  Click on the ASCOM logo to follow a link to the **ASCOM Standards for Astronomy** page, and download the ASCOM Platform:
 
-    | ![](//wwtweb.blob.core.windows.net/docs/uiimages/ASCOMDownload.jpg) |
+    | ![](uiimages/ASCOMDownload.jpg) |
 
 3.  Go through the download and installation procedures. This may take a few minutes.
 4.  Confirm that the software has been installed by ensuring the word **Installed** now appears below the ASCOM logo in WorldWide Telescope. Close and restart WorldWide Telescope if necessary:
 
-    | ![](//wwtweb.blob.core.windows.net/docs/uiimages/ASCOMInstalled.jpg) |
+    | ![](uiimages/ASCOMInstalled.jpg) |
 
 To ensure that the ASCOM software is working correctly with WorldWide Telescope, test it in simulation mode:
 
 1.  Click the **Choose** button on the telescope panel, then scroll down the list and select **Simulator**:
 
-    | ![](//wwtweb.blob.core.windows.net/docs/uiimages/ASCOMTelescopeChooser.jpg) |
+    | ![](uiimages/ASCOMTelescopeChooser.jpg) |
 
 2.  Click **OK**.
 3.  Now click **Connect** on the telescope panel. You should notice that many of the **Telescope Control** entries are now enabled. The actual buttons that are enabled depends on the setup of the simulator. Click **Setup** on the telescope panel. Change the **Equatorial System** entry in the **Advanced** section to **J2000**:
 
-    | ![](//wwtweb.blob.core.windows.net/docs/uiimages/ASCOMSetup.jpg) |
+    | ![](uiimages/ASCOMSetup.jpg) |
 
 4.  Click **OK** in the **Setup** dialog and you should notice that a new window has been opened, the **Scope Simulator**. This window mimics the remote control of a physical telescope:
 
-    | ![](//wwtweb.blob.core.windows.net/docs/uiimages/ScopeSimulator.jpg) | ![](//wwtweb.blob.core.windows.net/docs/uiimages/ScopeSimulatorBlank.jpg) | Open up the **Scope Simulator** and ensure that there are red numerical position values. If there are not, as seen in the image to the right, then the simulator did not start correctly. If this happens, try closing WorldWide Telescope and then opening it again. |
+    | ![](uiimages/ScopeSimulator.jpg) | ![](uiimages/ScopeSimulatorBlank.jpg) | Open up the **Scope Simulator** and ensure that there are red numerical position values. If there are not, as seen in the image to the right, then the simulator did not start correctly. If this happens, try closing WorldWide Telescope and then opening it again. |
 
 5.  Next click on **Search** to open up the search panel, then enter **Polaris** into the search text box. When the thumbnails appear, double click on **Polaris** (not **Polaris Australis**). This will instantly change the WorldWide Telescope view to the star.
 6.  Click on **Slew** in the telescope panel. You should see the settings on the **Scope Simulator** change to the RA and Dec of Polaris:
 
-    | ![](//wwtweb.blob.core.windows.net/docs/uiimages/ScopeSimulatorOnPolaris.jpg) |
+    | ![](uiimages/ScopeSimulatorOnPolaris.jpg) |
 
 7.  Next select the controls of the **Scope Simulator** -- one or more of **N**, **S**, **E** or **W**. Note that holding down Shift will move the virtual scope slower, and Ctrl even slower. So make some key presses to move the simulated view. Note the change in RA and Dec.
 8.  Click **Center** in the telescope panel to center the WorldWide Telescope view on whatever the simulated telescope is viewing. You should see the view smoothly animate to the simulator's settings.
 9.  Pressing **Traffic** on the **Scope Simulator** will display a window giving a log of the telescope movements:
 
-    | ![](//wwtweb.blob.core.windows.net/docs/uiimages/ASCOMTraffic.jpg) |
+    | ![](uiimages/ASCOMTraffic.jpg) |
 
 10.  This completes the simulation test.
 
@@ -1855,7 +1968,7 @@ The next step is to set up the physical telescope and your computer in a locatio
 
 ### <a name="TheTelescopePanel">The Telescope Panel</a>
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/TelescopePanel1.jpg) |
+| ![](uiimages/TelescopePanel1.jpg) |
 
 #### See Also
 
@@ -1867,7 +1980,7 @@ The next step is to set up the physical telescope and your computer in a locatio
 
 Clicking on the down arrow below **Telescope** opens up the menu entries
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/TelescopeMenuEntries.jpg) |
+| ![](uiimages/TelescopeMenuEntries.jpg) |
 
 #### See Also
 
@@ -1909,7 +2022,7 @@ To add images to this new collection use the **Research** option of the [Finder 
 
 To edit the metadata for any one of the images, right click the thumbnail for the image, and select **Edit**. This will bring up the **Edit Object Information** dialog:
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/EditObjectInformation.jpg) | Some of the metadata information is populated, including the **Constellation** and **RA** and **Dec** co-ordinates, when the image is added to the collection. Clicking **FromView** will overwrite this with the co-ordinates of the current view, so be careful of clicking this inadvertently.
+| ![](uiimages/EditObjectInformation.jpg) | Some of the metadata information is populated, including the **Constellation** and **RA** and **Dec** co-ordinates, when the image is added to the collection. Clicking **FromView** will overwrite this with the co-ordinates of the current view, so be careful of clicking this inadvertently.
 
 Add appropriate **Names** and **Classification**. |
 
@@ -1933,11 +2046,11 @@ WorldWide Telescope has the concept of a _study_ - usually a single or composite
 
 When both a foreground and background image are in view, the **Image Crossfade** slider appears, enabling you to visually compare the two images:
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/ImageCrossfade.jpg) |
+| ![](uiimages/ImageCrossfade.jpg) |
 
 Another method of comparing images is available if there are several thumbnails (studies) of the same object. For example, select **Explore > Collections > Chandra Studies** and then scroll to **Kepler's Supernova**. There are a number of thumbnails representing different studies of this feature, including the visible wavelength and high energy x-rays. To compare the studies without any change in camera position, click on the picture icons in the top right hand corner of the thumbnails:
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/Kepler.jpg) | ![](//wwtweb.blob.core.windows.net/docs/uiimages/PictureIcon.jpg)
+| ![](uiimages/Kepler.jpg) | ![](uiimages/PictureIcon.jpg)
 The picture icon. |
 
 To change the default operation of a study as foreground and survey as background there are a number of options. All default surveys appear as thumbnails in the **Collections > All-Sky Surveys** folder. Simply clicking on the thumbnail will load the survey as background. However if you right-click on the picture icon, there is the option to load the survey as foreground or background. Load one as foreground and one as background and the **Image Crossfade** slider will be enabled to compare the two. Similarly two studies can be compared this way.
@@ -1965,7 +2078,7 @@ If you find an object you wish to research further, try not to move the **Finder
 
 Note also that you can pan by dragging the **Finder Scope** to the edges of the field of view.
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/FinderScope.jpg) | An object in space may have multiple names: **Ksora** and **HIP6686** in the example shown.
+| ![](uiimages/FinderScope.jpg) | An object in space may have multiple names: **Ksora** and **HIP6686** in the example shown.
 
 Click **Show object** to return to the view of the object if for any reason the view no longer shows it.
 
@@ -1974,7 +2087,7 @@ The properties of the object (**RA**, **Dec**, **Alt** and so on), are explained
 Refer also to the note: [Viewing from a new location](#ViewingfromaNewLocation).
 
 Both the **X** in the top right corner, and the **Close** button, close the **Finder Scope**. |
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/FinderScopeExpandedMenu.jpg) | Click **Research** to bring up a menu of options to research websites for data or more images of the object.
+| ![](uiimages/FinderScopeExpandedMenu.jpg) | Click **Research** to bring up a menu of options to research websites for data or more images of the object.
 
 The **Set as Foreground Imagery**, **Set as Background Imagery**, and **Remove from Image Cache** will only appear in the menu if these items are relevant to the selection.
 
@@ -1984,7 +2097,7 @@ The **Set as Foreground Imagery**, **Set as Background Imagery**, and **Remove f
 
 **SAMP** is an astronomy protocol for sharing data. |
 | Information
-![](//wwtweb.blob.core.windows.net/docs/uiimages/FinderScopeInformation.jpg)
+![](uiimages/FinderScopeInformation.jpg)
  | Note that informational websites are independent of Microsoft and may require additional software, licenses or sign in procedures.
 
 **SIMBAD**: the Set of Identifications, Measurements, and Bibliography for Astronomical Data.
@@ -1993,14 +2106,14 @@ The **Set as Foreground Imagery**, **Set as Background Imagery**, and **Remove f
 **ADS**: the Smithsonian/NASA Astrophysics Data System.
 **NED**: the NASA/IPAC Extragalactic Database. |
 | Imagery
- ![](//wwtweb.blob.core.windows.net/docs/uiimages/FinderScopeImagery.jpg) | **DSS**: Digitized Sky Survey
+ ![](uiimages/FinderScopeImagery.jpg) | **DSS**: Digitized Sky Survey
 **SDSS**: Sloan Digitized Sky Survey
 [**FITS**](#FITSImages): Flexible Image Transport System image, commonly used in astronomy because of its ability to store human-readable metadata.
  |
 | Virtual Observatory Searches
-![](//wwtweb.blob.core.windows.net/docs/uiimages/FinderScopeVO.jpg) | Refer to the [Virtual Observatory Tables](#VirtualObservatoryTables) example below. |
+![](uiimages/FinderScopeVO.jpg) | Refer to the [Virtual Observatory Tables](#VirtualObservatoryTables) example below. |
 | SAMP options
-![](//wwtweb.blob.core.windows.net/docs/uiimages/FinderScopeSampMenu.jpg) | Send the image or table data to **Broadcast** to be picked up by all other [SAMP](http://www.ivoa.net/Documents/WD/App/SAMP-20080625.html) compliant programs you are running. |
+![](uiimages/FinderScopeSampMenu.jpg) | Send the image or table data to **Broadcast** to be picked up by all other [SAMP](http://www.ivoa.net/Documents/WD/App/SAMP-20080625.html) compliant programs you are running. |
 
 #### See Also
 
@@ -2016,9 +2129,9 @@ Virtual Observatory (VO) tables are spreadsheets of mainly numerical astronomica
 
 For example, use the [Search Panel](#TheSearchPanel) to navigate to the galaxy M51 -- much better known as the _Whirlpool Galaxy_, and right click to bring up the **Finder Scope**, select **Research > Virtual Observatory Searches > NED**. This will bring up the VO table shown below. Select **Plot All** in the **VO Table Viewer** to annotate all the located objects in the view with the selected **Plot Type** (white circles by default) -- a lot in the case of M51! Now use the **Finder Scope** on the individual plots to investigate them further, many will be unidentified electromagnetic wave sources.
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/NEDSearchVOTable.jpg) |
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/NEDSearchM51.jpg) |
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/M51PlotName.jpg) |
+| ![](uiimages/NEDSearchVOTable.jpg) |
+| ![](uiimages/NEDSearchM51.jpg) |
+| ![](uiimages/M51PlotName.jpg) |
 
 * * *
 
@@ -2026,9 +2139,9 @@ For example, use the [Search Panel](#TheSearchPanel) to navigate to the galaxy M
 
 A Virtual Observatory (VO) cone search is a search for data on objects in space within a cone - specified by a direction into space and a radius. The diagram below shows a cone search with a radius of approximately 8.5 degrees.
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/ConeSearch.jpg)
+| ![](uiimages/ConeSearch.jpg)
 The cone search can be refined by specifying that only certain types of objects ("white dwarfs", "knots", "supernovae" etc.) should be located. |
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/ConeSearchPulsar.jpg)
+| ![](uiimages/ConeSearchPulsar.jpg)
 First pan to the area of space you wish to search, then zoom in to reduce the radius to an appropriate amount.
 
 Select **VO Cone Search/Registry Look up** from the **Search** drop down menu.
@@ -2052,8 +2165,8 @@ The FITS (Flexible Image Transport System) was developed particularly to hold th
 
 If a FITS image is loaded into WorldWide Telescope some additional analysis options become available. To load a FITS image simply use the **Explore > Open > Image...** option, and note that the **Scale** icon appears in the lower panel alongside the **Image Crossfade** slider:
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/FITSScale.jpg) | Click on the **Scale** icon to display a light intensity histogram. |
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/FitsHistogram.jpg) | Slide the green and red bars to select the starting and ending points for the display, then select from **Linear**, **Log**, **Power**, **Square Root** to determine how the data is to be displayed in the main view. Note that the red bar can precede the green bar to invert the slope. The bars limit the range of data that is to be displayed, and the slope determines the emphasis given to the data.
+| ![](uiimages/FITSScale.jpg) | Click on the **Scale** icon to display a light intensity histogram. |
+| ![](uiimages/FitsHistogram.jpg) | Slide the green and red bars to select the starting and ending points for the display, then select from **Linear**, **Log**, **Power**, **Square Root** to determine how the data is to be displayed in the main view. Note that the red bar can precede the green bar to invert the slope. The bars limit the range of data that is to be displayed, and the slope determines the emphasis given to the data.
 The final option, **Histogram Equalization**, does not use the bars, but instead gives equal emphasis to each intensity level of the data.
 
 Note that there are 256 intensity levels, from pure black on the left margin of the histogram, to pure white on the right. The height of any bar in the histogram indicates the number of pixels in the image at that particular intensity level.
@@ -2091,7 +2204,7 @@ Electromagnetic radiation is classified as follows:
 | Between 10cm and 1mm | Microwaves |
 | Between 1mm and 700nm | Infrared radiation. |
 | Between 700nm and 400nm | Visible light
-![](//wwtweb.blob.core.windows.net/docs/uiimages/VisibleLight.jpg) |
+![](uiimages/VisibleLight.jpg) |
 | Between 400nm and 10nm | Ultraviolet radiation |
 | Between 10nm and 1/100nm | X-rays |
 | Less than 1/100nm | Gamma rays |
@@ -2129,7 +2242,7 @@ Below is a description of the **Imagery** sets included in WorldWide Telescope. 
 #### <a name="DigitizedSkySurvey">Digitized Sky Survey</a>
 
 | A comprehensive sky survey in the visible wavelength, first published in 1994\. This survey was created by the Space Telescope Science Institute's (STScI) Catalogs and Surveys Group from images of the northern sky taken by the National Geographic Palomar Observatory in California (from 1948 to 1958) and images of the southern sky taken by the UK Schmidt telescope in Australia (from 1973 to 1988). The original image data was a large number of glass photographic plates, with each plate covering 6.5 x 6.5 degrees of the sky. These plates have produced very large digital images (14000x14000 or 23040x 23040 pixels), and it is a compressed version of these images that WorldWide Telescope accesses.
-![](//wwtweb.blob.core.windows.net/docs/uiimages/survey_sky.jpg) |
+![](uiimages/survey_sky.jpg) |
 
 #### See Also
 
@@ -2141,7 +2254,7 @@ Below is a description of the **Imagery** sets included in WorldWide Telescope. 
 #### <a name="HipparcosCatalog">Hipparcos Catalog</a>
 
 | Hipparcos is the name of a European Space Agency Mission and Satellite that took images from 1989 to 1993 and accurately catalogued 118,218 stars. Taken from space, the measurements avoided the gravitational, atmospheric and thermal distortions that were limiting ground based telescopes. The error in the positioning of stars in this catalog is under 0.001 arc seconds. An auxiliary star mapper pinpointed many more stars with lesser but still considerable accuracy at 0.03 arc seconds. Known as the [Tycho Catalog](#Tycho) this identified 1,058,332 stars.
-![](//wwtweb.blob.core.windows.net/docs/uiimages/survey_hipparcos.jpg) |
+![](uiimages/survey_hipparcos.jpg) |
 
 #### See Also
 
@@ -2153,7 +2266,7 @@ Below is a description of the **Imagery** sets included in WorldWide Telescope. 
 #### <a name="VLALowFrequencySkySurvey">VLSS: VLA Low Frequency Sky Survey (Radio)</a>
 
 | The Very Large Array (VLA) Low-Frequency Sky Survey (VLSS) is an ongoing survey of the sky for radio waves at 74 MHz (4-meter wavelength). The radio survey consists of 358 overlapping images covering the entire sky north of the -30� declination. The survey has so far identified over 70,000 sources of radio waves. From the survey, there are significant samples of objects including high red-shift radio galaxies, galaxy clusters and supernova remnants. Very distant radio galaxies may reveal information on the timeline of cosmic events, such as how soon black holes were formed in the history of the Universe.
-![](//wwtweb.blob.core.windows.net/docs/uiimages/survey_vlss.jpg) |
+![](uiimages/survey_vlss.jpg) |
 
 #### See Also
 
@@ -2164,7 +2277,7 @@ Below is a description of the **Imagery** sets included in WorldWide Telescope. 
 #### <a name="WMAPMicrowave">WMAP ILC 5-Year Cosmic Microwave Background</a>
 
 | The Wilkinson Microwave Anisotropy Probe (WMAP) was a three-year, all-sky survey that concluded in 2006\. The survey was conducted at several microwave bands (K, Ka, Q, V and W) to measure and map the cosmic microwave background radiation, measuring both its intensity and by how much it fluctuates. Microwave radiation is the oldest light in the Universe, and from this survey the Universe is estimated at 13.73 billion years old, to a 1% accuracy. Other results of the survey include support for the theory that most of the Universe is made up of dark energy (73%), with the rest mostly dark matter (22%) and only a small portion (5%) as atomic.
-![](//wwtweb.blob.core.windows.net/docs/uiimages/survey_wmap.jpg) |
+![](uiimages/survey_wmap.jpg) |
 
 #### See Also
 
@@ -2175,7 +2288,7 @@ Below is a description of the **Imagery** sets included in WorldWide Telescope. 
 #### <a name="SFDDustMap">SFD Dust Map</a>
 
 | The Infrared Dust Map is an all-sky, 100 micron, far infrared (12, 20, 25, and 100 micron pass bands) survey modulated by dust temperatures and then calibrated to be dust reddening at various magnitudes. Dust affects optical light by effects known as _extinction_ and _reddening_. Extinction is the loss of light due to scattering and absorption as it travels through clouds of dust. Because the dust scatters blue light more than red, the color of the light also changes - an effect known as reddening. When astronomers measure distant stars, galaxies, supernovae, or any other light-emitting object, they must correct the color and amount of light they measure for the amount of dust the light has passed through.
-![](//wwtweb.blob.core.windows.net/docs/uiimages/survey_dustmap.jpg) |
+![](uiimages/survey_dustmap.jpg) |
 
 #### See Also
 
@@ -2187,7 +2300,7 @@ Below is a description of the **Imagery** sets included in WorldWide Telescope. 
 
 | Starting in 1983 the Infrared Astronomical Satellite (IRAS) - a joint project of the US, UK, and the Netherlands - performed a survey of 98% of the sky at four wavelengths: 12, 25, 60, and 100 m. IRAS led to numerous scientific discoveries spanning a broad range of astrophysical subjects, from comets to circumstellar disks to interacting galaxies. A new generation of IRAS images, called IRIS, benefits from a better zodiacal light subtraction, an improved calibration and zero level, and from a better de-striping. The data set is used to study the variations of dust properties. Several studies of dust emissions at high galactic latitudes show large variations of dust
 properties depending on the grain sizes of the dust. Large dust clouds are the birthplaces of stars and planets.
-![](//wwtweb.blob.core.windows.net/docs/uiimages/survey_iris.jpg) |
+![](uiimages/survey_iris.jpg) |
 
 #### See Also
 
@@ -2198,7 +2311,7 @@ properties depending on the grain sizes of the dust. Large dust clouds are the b
 #### <a name="TwoMicroAllSkySurvey">2MASS Two Micron All Sky Survey (Synthetic)</a>
 
 | The 470,992,970-source Two Micron All Sky Survey (2MASS) Point Source Catalog was produced by a joint project of the University of Massachusetts and the Infrared Processing and Analysis Center. The entire sky was uniformly scanned in three near-infrared bands to detect and characterize point sources brighter than about 1 mJy (1 milliJanksy) in each band. 2MASS used two highly-automated 1.3-m telescopes, one at Mt. Hopkins, Arizona, and one at Cerro Tololo Inter-American Observatory, Chile. The northern 2MASS facility began routine operations in 1997, and the southern facility in 1998\. The primary use of these maps is likely to be as a new estimator of galactic extinction.
-![](//wwtweb.blob.core.windows.net/docs/uiimages/survey_2mass.jpg) |
+![](uiimages/survey_2mass.jpg) |
 
 #### See Also
 
@@ -2209,7 +2322,7 @@ properties depending on the grain sizes of the dust. Large dust clouds are the b
 #### <a name="HydrongenAlphaFullSkyMap">Hydrogen Alpha Full Sky Map</a>
 
 | A full sky map generated at Princeton University compositing the Virginia Tech Spectral line Survey (VTSS) of the northern skies and the Southern H-Alpha Sky Survey Atlas (SHASSA) produced from images taken by the Cerro Tololo Inter-American Observatory in Chile of the southern skies. The hydrogen-alpha filters block out as much of the hydrogen emission spectrum leaving only a band pass from 0.5 Angstrom to 1 Angstrom deep in the red end of the visible light spectrum. The composite map can be used to provide limits on thermal emissions from ionized gas known to contaminate microwave-background data.
-![](//wwtweb.blob.core.windows.net/docs/uiimages/survey_hydrogen.jpg) |
+![](uiimages/survey_hydrogen.jpg) |
 
 #### See Also
 
@@ -2222,7 +2335,7 @@ properties depending on the grain sizes of the dust. Large dust clouds are the b
 | The Sloan Digital Sky Survey (SDSS) was initiated in 2000 and is ongoing. The survey uses a dedicated 2.5-meter telescope at Apache Point Observatory, New Mexico, equipped with two powerful special-purpose instruments: a 120-megapixel camera images 1.5 square degrees of the sky at a time (about eight times the area of the full moon), and a pair of spectrographs fed by optical fibers measure the spectra of (and hence distance to) more than 600 galaxies and quasars in a single observation. After eight years of operations this survey has obtained deep, multi-color images covering more than a quarter of the sky. The result has enabled the creation of 3-dimensional maps containing more than 930,000 galaxies and 120,000 quasars.
 
 The survey has not yet covered the constellation Cygnus, so the image shows the constellation Leo:
-![](//wwtweb.blob.core.windows.net/docs/uiimages/survey_sloan.jpg) |
+![](uiimages/survey_sloan.jpg) |
 
 #### See Also
 
@@ -2233,7 +2346,7 @@ The survey has not yet covered the constellation Cygnus, so the image shows the 
 #### <a name="Tycho">Tycho (Synthetic, Optical)</a>
 
 | The Tycho-2 catalog is based on a mix of 1991 space-based data from the European Space Agency's [Hipparcos](#HipparcosCatalog) satellite, data from the Tycho 1 catalog, and over 140 other astrometric catalogs. The catalog also included the re-analysis of positional data for the Tycho-1 stars. The celestial co-ordinate data for all the earlier catalogs was corrected to match the J2000 epoch of the Hipparcos catalog. The mix increased the number of stars in the catalog to 2,539,913 of the brightest stars in the Milky Way, of which about 5000 are visible to the naked eye. Components of double stars with separations down to 0.8 arc seconds are included.
-![](//wwtweb.blob.core.windows.net/docs/uiimages/survey_tycho.jpg) |
+![](uiimages/survey_tycho.jpg) |
 
 #### See Also
 
@@ -2244,7 +2357,7 @@ The survey has not yet covered the constellation Cygnus, so the image shows the 
 #### <a name="USNOB">USNOB: US Naval Observatory B1.0 (Synthetic, Optical)</a>
 
 | The US Naval Obersvatory-B1.0 is a catalog of 1,042,618,261 objects. The data were obtained from scans of 7,435 Schmidt plates taken for the various sky surveys during the last 50 years by the Precision Measuring Machine (PMM) at the US Naval Observatory in Flagstaff, Arizona. The originating plate material includes five complete coverages of the northern sky and four of the southern sky To be included in the catalog, an object must have been detected on two different surveys, to avoid the unreliability of single detections. The [Tycho-2 Catalog](#Tycho) is the astrometric reference. The USNO-B1.0 is believed to provide all-sky coverage, completeness down to 0.2 arc second astrometric accuracy at J2000, 0.3 magnitude photometric accuracy in up to five colors, and 85% accuracy for distinguishing stars from non-stellar objects. 
-![](//wwtweb.blob.core.windows.net/docs/uiimages/survey_USNaval.jpg) |
+![](uiimages/survey_USNaval.jpg) |
 
 #### See Also
 
@@ -2255,7 +2368,7 @@ The survey has not yet covered the constellation Cygnus, so the image shows the 
 #### <a name="GALEX">GALEX (Ultraviolet)</a>
 
 | Since its launch in 2003, the Galaxy Evolution Explorer (Galex) telescope has imaged more than a half-billion objects across two-thirds of the sky. The telescope studies galaxies far beyond our Milky Way through its sensitive ultraviolet telescope - the only such far-ultraviolet detector in space. The Galaxy Evolution Explorer has two detectors: one in far-ultraviolet, which reveals stars younger than about 10 million years old, and another in near-ultraviolet, which detects stars younger than about 100 million years old. Massive young stars burn their large supply of hydrogen fuel quickly, burning hot and bright while emitting most of their energy at ultraviolet wavelengths. Compared with low-mass stars like our sun, which live for billions of years, these massive stars never reach old age, having a lifespan as short as a few million years.
-![](//wwtweb.blob.core.windows.net/docs/uiimages/survey_galex.jpg) |
+![](uiimages/survey_galex.jpg) |
 
 #### See Also
 
@@ -2266,7 +2379,7 @@ The survey has not yet covered the constellation Cygnus, so the image shows the 
 #### <a name="ROSATAllSkySurvey">RASS: ROSAT All Sky Survey (X-Ray)</a>
 
 | The ROSAT All Sky Survey (RASS) was a survey of the sky released in March 2000 by the Max-Planck-Institut f�r extraterrestrische Physik. The survey was the first imaging X-ray survey of the entire sky. Combining the RASS Bright and Faint Source Catalogs yields an average of about three X-ray sources per square degree. However, while X-ray sources are known to range from distant quasars to nearby M dwarfs, the RASS data alone are often insufficient to determine the nature of an X-ray source. The X-rays are mainly emitted by some million-degree gases such as stellar coronae, supernova remnants, superbubbles (a cavity hundreds of lights years across filled with hot gas), and the hot plasma of the galactic nucleus. The faint source catalog has 105,924 sources, and the bright source catalog has 18,811 - the distinction being that to qualify for a bright source listing the source must emit 0.05 counts/sec or greater. Counts per second (or CPS) is a measure of x-ray activity.
-![](//wwtweb.blob.core.windows.net/docs/uiimages/survey_rass.jpg) |
+![](uiimages/survey_rass.jpg) |
 
 #### See Also
 
@@ -2277,7 +2390,7 @@ The survey has not yet covered the constellation Cygnus, so the image shows the 
 #### <a name="Fermi">Fermi (Gamma)</a>
 
 | Launched in 2008, NASA's Fermi Gamma-ray Space Telescope is tasked with exploring extreme environments in the Universe. These include the powerful explosions known as gamma-ray bursts (believed to occur when massive stars run out of nuclear fuel), pulsars (neutron stars emitting beams of radiation), solar flares, and the acceleration of jets of material away from black holes.  So far the Fermi telescope has revealed a new class of pulsars, probed gamma-ray bursts and watched flaring jets in galaxies billions of light-years away.
-![](//wwtweb.blob.core.windows.net/docs/uiimages/survey_femmi.jpg) |
+![](uiimages/survey_femmi.jpg) |
 
 #### See Also
 
@@ -2288,7 +2401,7 @@ The survey has not yet covered the constellation Cygnus, so the image shows the 
 #### <a name="BlackSkyBackground">Black Sky Background</a>
 
 | Simply sets the entire background to black.
-![](//wwtweb.blob.core.windows.net/docs/uiimages/survey_blacksky.jpg) |
+![](uiimages/survey_blacksky.jpg) |
 
 #### Browse
 
@@ -2310,7 +2423,7 @@ The _Context Search_ automatically searches the constellation that the reticle i
 
 To obtain some information on the items in the Context Search, right-click on the thumbnails in the lower panel and select **Properties** from the menu. This will display the same information that appears in the [The Finder Scope](#TheFinderScope), for example:
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/ContextProperties.jpg) | In this example M86 has appeared in the lower panel as a result of the context search. Selecting **Properties** from the right-click menu displays the property data without changing the view. |
+| ![](uiimages/ContextProperties.jpg) | In this example M86 has appeared in the lower panel as a result of the context search. Selecting **Properties** from the right-click menu displays the property data without changing the view. |
 
 #### Context Search Filter
 
@@ -2335,51 +2448,51 @@ Click on the thumbnail images below to link to the example. And then click on th
 ##### Example
 
  |
- **Solar System** | The Sun, or any planet or moon of our own Solar System. | [![](//wwtweb.blob.core.windows.net/docs/uiimages/SolarSystemSaturn.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Saturn&ra=11.1310226934708&dec=7.92703939594174&zoom=0.1) |
+ **Solar System** | The Sun, or any planet or moon of our own Solar System. | [![](uiimages/SolarSystemSaturn.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Saturn&ra=11.1310226934708&dec=7.92703939594174&zoom=0.1) |
 | **Stellar** |
- **Star** | A ball of gas held together by its own gravity and emitting its own radiation. | [![](//wwtweb.blob.core.windows.net/docs/uiimages/Star.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Bellatrix&ra=5.41861111133333&dec=6.349722222&zoom=1.40625) |
- **Supernova** | A star (at least 8 times more massive than the Sun) that does not have enough fuel for the fusion process in its core will explode due to gravitational collapse. The explosion is called a supernova. The remaining material is known as a supernova remnant. | [![](//wwtweb.blob.core.windows.net/docs/uiimages/Supernova.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Supernova Dust Factory in M74&ra=1.61166666666667&dec=15.7405555555556&zoom=1.415)
+ **Star** | A ball of gas held together by its own gravity and emitting its own radiation. | [![](uiimages/Star.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Bellatrix&ra=5.41861111133333&dec=6.349722222&zoom=1.40625) |
+ **Supernova** | A star (at least 8 times more massive than the Sun) that does not have enough fuel for the fusion process in its core will explode due to gravitational collapse. The explosion is called a supernova. The remaining material is known as a supernova remnant. | [![](uiimages/Supernova.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Supernova Dust Factory in M74&ra=1.61166666666667&dec=15.7405555555556&zoom=1.415)
 Supernova Dust Factory in M74 |
- **Black Hole** | A star (at least 10-15 times more massive than the Sun) that became a supernova and then further collapsed in on itself. The infinite density of the supernova's remnants causes the path of light to wrap around it. | [![](//wwtweb.blob.core.windows.net/docs/uiimages/BlackHole1.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Black Hole-Powered Jet of Electrons and Sub-Atomic Particles Streams From Center of Galaxy M87&ra=12.5136111111111&dec=12.3927777777778&zoom=0.595)
+ **Black Hole** | A star (at least 10-15 times more massive than the Sun) that became a supernova and then further collapsed in on itself. The infinite density of the supernova's remnants causes the path of light to wrap around it. | [![](uiimages/BlackHole1.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Black Hole-Powered Jet of Electrons and Sub-Atomic Particles Streams From Center of Galaxy M87&ra=12.5136111111111&dec=12.3927777777778&zoom=0.595)
 
 Black Hole-Powered Jet of Electrons and Sub-Atomic Particles Streams From Center of Galaxy M87
 
  |
- **Neutron Star** | The ultra-dense collapsed core of a star that has undergone a supernova. | [![](//wwtweb.blob.core.windows.net/docs/uiimages/NeutronStar.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=N132D: An Oxygen Factory in a Nearby Galaxy&ra=5.41722222222222&dec=-69.6419444444444&zoom=0.568333333333333)
+ **Neutron Star** | The ultra-dense collapsed core of a star that has undergone a supernova. | [![](uiimages/NeutronStar.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=N132D: An Oxygen Factory in a Nearby Galaxy&ra=5.41722222222222&dec=-69.6419444444444&zoom=0.568333333333333)
 NASA Great Space Observatories Glimpse Faint Afterglow of Nearby Stellar Explosion |
- **Double Star** | Two stars that orbit around a common center of mass. | [![](//wwtweb.blob.core.windows.net/docs/uiimages/DoubleStars.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=NGC33&ra=0.182388888866665&dec=3.675833333&zoom=1.40625) |
- **Multiple Stars** | More than two stars that orbit around a common center of mass. | [![](//wwtweb.blob.core.windows.net/docs/uiimages/MultipleStars.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=NGC5877&ra=15.21475&dec=-4.927222222&zoom=1.40625) |
+ **Double Star** | Two stars that orbit around a common center of mass. | [![](uiimages/DoubleStars.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=NGC33&ra=0.182388888866665&dec=3.675833333&zoom=1.40625) |
+ **Multiple Stars** | More than two stars that orbit around a common center of mass. | [![](uiimages/MultipleStars.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=NGC5877&ra=15.21475&dec=-4.927222222&zoom=1.40625) |
 | **Stellar Grouping** |
  **Constellation** | A grouping of stars occupying one of the 88 areas in which the sky is divided.
-Note that the search filter will locate only those items that have a _Constellation_ classification set on them, which does not include all the constellations themselves, but studies relating to a constellation. | [![](//wwtweb.blob.core.windows.net/docs/uiimages/ConstellationYoungAndOld.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Young and Old Stars Found in Andromeda's Halo&ra=0.768611111111111&dec=40.71&zoom=2.82833333333333)
+Note that the search filter will locate only those items that have a _Constellation_ classification set on them, which does not include all the constellations themselves, but studies relating to a constellation. | [![](uiimages/ConstellationYoungAndOld.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Young and Old Stars Found in Andromeda's Halo&ra=0.768611111111111&dec=40.71&zoom=2.82833333333333)
 
 Young and Old Stars Found in Andromeda's Halo |
- **Asterism** | A group of stars that comprise a portion of a larger constellation whether physically related to it or not. For example, the Big Dipper is part of the Great Bear constellation, and the Belt of Orion is part of the Orion constellation. | [![](//wwtweb.blob.core.windows.net/docs/uiimages/Asterism.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=NGC7526&ra=23.23397222&dec=-9.221666667&zoom=1.40625) |
- **Open Cluster** | A physically related groups of stars formed from the same giant molecular cloud and held together by mutual gravitational attraction. | [![](//wwtweb.blob.core.windows.net/docs/uiimages/OpenCluster.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=M48&ra=8.23&dec=-5.8&zoom=1.40625) |
- **Globular Cluster** | A spherical collection of stars that share a common origin and orbit a galaxy as a satellite. Globular clusters are very tightly gravitationally bound, which gives them their spherical shape. They are also extremely dense towards their core. | [![](//wwtweb.blob.core.windows.net/docs/uiimages/GlobularCluster.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=NGC5897&ra=15.2901111133333&dec=-21.01027778&zoom=2.87297201088754) |
- **Nebulous Cluster** | A diffuse mass of interstellar dust and gas that orbits a galaxy as a satellite. | [![](//wwtweb.blob.core.windows.net/docs/uiimages/NebulousCluster.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=NGC7023&ra=21.02652778&dec=68.16972222&zoom=1.40625) |
+ **Asterism** | A group of stars that comprise a portion of a larger constellation whether physically related to it or not. For example, the Big Dipper is part of the Great Bear constellation, and the Belt of Orion is part of the Orion constellation. | [![](uiimages/Asterism.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=NGC7526&ra=23.23397222&dec=-9.221666667&zoom=1.40625) |
+ **Open Cluster** | A physically related groups of stars formed from the same giant molecular cloud and held together by mutual gravitational attraction. | [![](uiimages/OpenCluster.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=M48&ra=8.23&dec=-5.8&zoom=1.40625) |
+ **Globular Cluster** | A spherical collection of stars that share a common origin and orbit a galaxy as a satellite. Globular clusters are very tightly gravitationally bound, which gives them their spherical shape. They are also extremely dense towards their core. | [![](uiimages/GlobularCluster.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=NGC5897&ra=15.2901111133333&dec=-21.01027778&zoom=2.87297201088754) |
+ **Nebulous Cluster** | A diffuse mass of interstellar dust and gas that orbits a galaxy as a satellite. | [![](uiimages/NebulousCluster.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=NGC7023&ra=21.02652778&dec=68.16972222&zoom=1.40625) |
  **Dark Nebula** | An interstellar cloud of dust so dense that it obscures or absorbs light coming from stars or nebula behind it. | No current examples |
- **Giant Molecular Cloud** | A type of interstellar cloud whose density and size permits the formation of molecules, stars, and planets. | [![](//wwtweb.blob.core.windows.net/docs/uiimages/GiantMolecularCloud.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=A Natal Microcosm&ra=22.3191666666667&dec=63.2958333333333&zoom=7.65166666666667) |
- **Interstellar Dust** | Irregularly shaped, stellar material, just a fraction of a micron across, composed of silicates, carbon, ice, and/or iron compounds. This material scatters light in our line of sight and obscures or obstructs our view of stellar objects. | [![](//wwtweb.blob.core.windows.net/docs/uiimages/NearbyDustClouds.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Nearby Dust Clouds in the Milky Way&ra=0.884444444444444&dec=56.6447222222222&zoom=3.945)
+ **Giant Molecular Cloud** | A type of interstellar cloud whose density and size permits the formation of molecules, stars, and planets. | [![](uiimages/GiantMolecularCloud.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=A Natal Microcosm&ra=22.3191666666667&dec=63.2958333333333&zoom=7.65166666666667) |
+ **Interstellar Dust** | Irregularly shaped, stellar material, just a fraction of a micron across, composed of silicates, carbon, ice, and/or iron compounds. This material scatters light in our line of sight and obscures or obstructs our view of stellar objects. | [![](uiimages/NearbyDustClouds.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Nearby Dust Clouds in the Milky Way&ra=0.884444444444444&dec=56.6447222222222&zoom=3.945)
 Nearby Dust Clouds in the Milky Way |
 | **Nebula** |
- **Nebula** | A diffuse mass of interstellar dust and gas. These areas result from supernova explosions and are the birthplaces of new stars. | [![](//wwtweb.blob.core.windows.net/docs/uiimages/Nebula.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Crab Nebula&ra=5.57527777777778&dec=22.0172222222222&zoom=1.40625) |
- **Planetary Nebula** | A shell of gas ejected from stars, such as our Sun, at the end of their lifetimes. This gas continues to expand from the remaining white dwarf. | [![](//wwtweb.blob.core.windows.net/docs/uiimages/PlanetaryNebula.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=NGC1514&ra=4.15469444466667&dec=30.77611111&zoom=1.40625) |
- **Supernova Remnant** | The remains of the explosion of a massive star such as a red supergiant. | [![](//wwtweb.blob.core.windows.net/docs/uiimages/SupernovaRemnant.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Supernova Remnant Cassiopeia A - March 2004&ra=23.3911111111111&dec=58.8169444444444&zoom=2) |
- **Emission Nebula** | A nebula that shines by emitting light on a hydrogen cloud. | [![](//wwtweb.blob.core.windows.net/docs/uiimages/FlamingStarNebula.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Flaming Star Nebula&ra=5.25861111111111&dec=34.0908333333333&zoom=16) |
- **Reflection Nebula** | A nebula that shines by reflecting light from nearby stars. | [![](//wwtweb.blob.core.windows.net/docs/uiimages/ReflectionNebula.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=NGC1432&ra=3.76375&dec=24.36833333&zoom=1.40625) |
- **Cluster of Galaxies** | A group of galaxies that are gravitationally bound together. | [![](//wwtweb.blob.core.windows.net/docs/uiimages/ClusterOfGalaxies.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Abell 1689:  A Galaxy Cluster Makes Its Mark&ra=13.1916666666667&dec=-1.33833333333333&zoom=2) |
+ **Nebula** | A diffuse mass of interstellar dust and gas. These areas result from supernova explosions and are the birthplaces of new stars. | [![](uiimages/Nebula.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Crab Nebula&ra=5.57527777777778&dec=22.0172222222222&zoom=1.40625) |
+ **Planetary Nebula** | A shell of gas ejected from stars, such as our Sun, at the end of their lifetimes. This gas continues to expand from the remaining white dwarf. | [![](uiimages/PlanetaryNebula.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=NGC1514&ra=4.15469444466667&dec=30.77611111&zoom=1.40625) |
+ **Supernova Remnant** | The remains of the explosion of a massive star such as a red supergiant. | [![](uiimages/SupernovaRemnant.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Supernova Remnant Cassiopeia A - March 2004&ra=23.3911111111111&dec=58.8169444444444&zoom=2) |
+ **Emission Nebula** | A nebula that shines by emitting light on a hydrogen cloud. | [![](uiimages/FlamingStarNebula.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Flaming Star Nebula&ra=5.25861111111111&dec=34.0908333333333&zoom=16) |
+ **Reflection Nebula** | A nebula that shines by reflecting light from nearby stars. | [![](uiimages/ReflectionNebula.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=NGC1432&ra=3.76375&dec=24.36833333&zoom=1.40625) |
+ **Cluster of Galaxies** | A group of galaxies that are gravitationally bound together. | [![](uiimages/ClusterOfGalaxies.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Abell 1689:  A Galaxy Cluster Makes Its Mark&ra=13.1916666666667&dec=-1.33833333333333&zoom=2) |
  **Quasar** | An extremely bright object at the edge of our universe that emits massive amounts of radiation, including radio waves and x-rays. | No current examples |
 | **Galactic** |
- **Galaxy** | A cluster of stars, dust, and gas held together by gravity. | [![](//wwtweb.blob.core.windows.net/docs/uiimages/Galaxy.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=NGC6050&ra=16.0898333333333&dec=17.75722222&zoom=1.40625) |
- **Spiral Galaxy** | A galaxy in which most of the stars are arranged in a disk and have spiral structures ("arms") that extend from the central bulge of stars. | [![](//wwtweb.blob.core.windows.net/docs/uiimages/SpiralGalaxy.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Sombrero Galaxy&ra=12.6663888888889&dec=-11.6219444444444&zoom=2) |
- **Irregular Galaxy** | A galaxy that does not fall into one of the three main Hubble sequence galaxy classes. | [![](//wwtweb.blob.core.windows.net/docs/uiimages/IrregularGalaxyM82.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Messier 82&ra=9.93027777777778&dec=69.6858333333333&zoom=2.37833333333333) |
- **Elliptical Galaxy** | A galaxy that does not have a disk but rather a smooth, featureless profile. They range in shape from nearly spherical to highly flattened. | [![](//wwtweb.blob.core.windows.net/docs/uiimages/EllipticalGalaxy.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=M49&ra=12.4966666666667&dec=8&zoom=1.40625) |
- **Knot** | An area within a galaxy containing a greater concentration of material (such as gas, dust, or stars) than adjacent areas. Knots appear in images as bright areas within a galaxy. | [![](//wwtweb.blob.core.windows.net/docs/uiimages/Knot.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=IC3708&ra=12.73127778&dec=13.12083333&zoom=1.40625) |
+ **Galaxy** | A cluster of stars, dust, and gas held together by gravity. | [![](uiimages/Galaxy.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=NGC6050&ra=16.0898333333333&dec=17.75722222&zoom=1.40625) |
+ **Spiral Galaxy** | A galaxy in which most of the stars are arranged in a disk and have spiral structures ("arms") that extend from the central bulge of stars. | [![](uiimages/SpiralGalaxy.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Sombrero Galaxy&ra=12.6663888888889&dec=-11.6219444444444&zoom=2) |
+ **Irregular Galaxy** | A galaxy that does not fall into one of the three main Hubble sequence galaxy classes. | [![](uiimages/IrregularGalaxyM82.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=Messier 82&ra=9.93027777777778&dec=69.6858333333333&zoom=2.37833333333333) |
+ **Elliptical Galaxy** | A galaxy that does not have a disk but rather a smooth, featureless profile. They range in shape from nearly spherical to highly flattened. | [![](uiimages/EllipticalGalaxy.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=M49&ra=12.4966666666667&dec=8&zoom=1.40625) |
+ **Knot** | An area within a galaxy containing a greater concentration of material (such as gas, dust, or stars) than adjacent areas. Knots appear in images as bright areas within a galaxy. | [![](uiimages/Knot.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=IC3708&ra=12.73127778&dec=13.12083333&zoom=1.40625) |
 | **Other** |
- **Unidentified** | Deep sky objects that have not been identified or cataloged. | [![](//wwtweb.blob.core.windows.net/docs/uiimages/Unidentified.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=NGC4937&ra=13.08097222&dec=-47.21916667&zoom=1.40625) |
- **Plate Defect** | Plate defects are images containing photographic errors, such as the reflection of the telescope, color aberrations, dust, and so on. The telescope is usually reflected in an image when a single, very bright object is photographed. | [![](//wwtweb.blob.core.windows.net/docs/uiimages/ClassificationOtherL1014.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=L1014&ra=21.4019444444444&dec=49.9855555555556&zoom=1.88833333333333) |
- **Other NGC** | The New General Catalogue is one of the most commonly-used catalogs in amateur astronomy and contains nearly 8,000 objects. | [![](//wwtweb.blob.core.windows.net/docs/uiimages/OtherNGC.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=IC1165A&ra=16.03552778&dec=15.69638889&zoom=1.40625) |
+ **Unidentified** | Deep sky objects that have not been identified or cataloged. | [![](uiimages/Unidentified.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=NGC4937&ra=13.08097222&dec=-47.21916667&zoom=1.40625) |
+ **Plate Defect** | Plate defects are images containing photographic errors, such as the reflection of the telescope, color aberrations, dust, and so on. The telescope is usually reflected in an image when a single, very bright object is photographed. | [![](uiimages/ClassificationOtherL1014.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=L1014&ra=21.4019444444444&dec=49.9855555555556&zoom=1.88833333333333) |
+ **Other NGC** | The New General Catalogue is one of the most commonly-used catalogs in amateur astronomy and contains nearly 8,000 objects. | [![](uiimages/OtherNGC.jpg)](http://www.worldwidetelescope.org/wwtweb/goto.aspx?object=IC1165A&ra=16.03552778&dec=15.69638889&zoom=1.40625) |
 
 #### See Also
 
@@ -2395,7 +2508,7 @@ The value in comparing and cataloging the brightness of stars was apparent to th
 
 The value in this logarithmic scale is that it keeps the numbers in a small range. If the brightness scale was linear and not logarithmic it would have to extend from zero to one trillion simply to include distant stars (and ignoring the brightness of any object in the Solar System). The following image shows the brightness of a number of stars around Canopus (the second brightest distant star in our night sky):
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/Brightness.jpg) |
+| ![](uiimages/Brightness.jpg) |
 **Tau Puppis
 
 HR2400
@@ -2512,7 +2625,7 @@ To add a layer of time series data, click the **Add** button on the Layer Manage
 
 Following the selection of the appropriate file, a series of Data Visualization dialogs will appear that are used to configure the data for WorldWide Telescope:
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/EarthResearch_spreadsheetproperties.jpg)
+| ![](uiimages/EarthResearch_spreadsheetproperties.jpg)
 When this dialog appears, first give the data layer a friendly name, and select from the drop down list of coordinate types (often the default of spherical will apply).
 
 Follow the instructions in the dialogs, carefully matching the column headings in the spreadsheet to those requested by the Data Visualization tool.
@@ -2592,7 +2705,7 @@ To set up a regional data cache, either on a small or large scale, contact the [
 
 A straightforward example of a multi-monitor cluster is to have a single master computer, and a matrix of slave computers each rendering a portion of the view.
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/Cluster1.jpg)
+| ![](uiimages/Cluster1.jpg)
 Hoag's Object - a rare ring galaxy - displayed on a 4 x 3 cluster. With a resolution on each monitor of 1920 x 1200 the full image is 27 Megapixels.
 
 The master computer is shown lower right.
@@ -2639,7 +2752,7 @@ To setup a multi-monitor cluster, go through the following procedure:
 | **    Height="1200"** | The desired screen resolution height for the slave. |
 | **    Bezel="1.07"** | As the physical edge of the monitors must be taken into account, certain pixels will not be rendered (those that would theoretically appear behind the edges of the monitors). The Bezel factor is the ratio of the size of the monitor to the size of the screen. An estimate of 107 percent is used in this example.
 The minimum Bezel value is 1.0.
-![](//wwtweb.blob.core.windows.net/docs/uiimages/Cluster2.jpg) |
+![](uiimages/Cluster2.jpg) |
 | **    ConfigFile=""** | The following three entries should be present, but with empty strings as parameters. |
 | **    BlendFile=""** |
 | **    DistortionGrid="">** |
@@ -2713,16 +2826,16 @@ With a large cluster such as the one shown in the image in the previous section,
 
 A single projector planetarium is typically a small planetarium up to around 20 feet in diameter. To see plans and instructions for building a planetarium suitable for a small class of students, refer to [WorldWide Telescope Planetarium](http://www.worldwidetelescope.org/docs/WorldWideTelescopePlanetarium.html). The key to single-projector planetariums is that the output has to be warped in such a way that it appears correct on the dome (or geodesic dome). This warping is most noticeable in the rendering of lines (rather than spheres). The image below shows Saturn and the Milky Way warped for a 16:9 projector.
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/MirrorWarping.jpg) |
+| ![](uiimages/MirrorWarping.jpg) |
 
 Select **Full Dome** from the [View Menu Entries](#ViewMenuEntries) to initiate setup for a small planetarium.
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/FullDome.jpg) | Before clicking on **Full Dome** to activate the warping, select **Dome Setup** to provide a few basic parameters.
+| ![](uiimages/FullDome.jpg) | Before clicking on **Full Dome** to activate the warping, select **Dome Setup** to provide a few basic parameters.
 
 **Start Listener** is a toggle setting, used in [Multi-Projector Planetariums](#MultiProjectorPlanetarium), so leave this unchecked.
 
 **Detach Main View to Second Monitor** will turn the current screen blank, and input control is transferred to the second view (dome or second monitor). |
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/domesetup.jpg) | For **Dome Type** select from the drop down list:
+| ![](uiimages/domesetup.jpg) | For **Dome Type** select from the drop down list:
 **Fisheye**
 **Mirrordome 16:9**
 **Mirrordome 4:3**
@@ -2786,7 +2899,7 @@ The following section applies to the use of WorldWide Telescope in planetariums 
 
 Projection into a large planetarium is often done using six projectors, with each projector projecting onto an area of the dome - with special blending done to mask the edges. The following diagram shows two common six-projector projection layouts:
 
-| ![](//wwtweb.blob.core.windows.net/docs/uiimages/ProjectionSixA.jpg) |
+| ![](uiimages/ProjectionSixA.jpg) |
 
 There are two methods of projection that can be configured in WorldWide Telescope, the first using P_rojection Designer_ software, the second using an external blending system such as _Global Immersion<sup>�</sup>_. One of the main differences between the two is that blending is done by WorldWide Telescope when using _Projection Designer_, but is usually done in dedicated hardware when using external blending. The two methods require different parameters in the config.xml file.
 
