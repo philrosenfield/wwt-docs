@@ -25,8 +25,16 @@ WWT Samples rendered using <a href="bl.ocks.org">bl.ocks.org</a>
 
 var parseDate = d3.time.format.iso.parse;
 
-render([{"id":"81d70d196ec5fbcc28f859905dce0978","sha":"81d70d196ec5fbcc28f859905dce0978","owner":{"login":"philrosenfield"},"description":"WWT WebClient Arrived"},{"id":"bed1c0a32430b914fbfcf98bd6c9503c","sha":"bed1c0a32430b914fbfcf98bd6c9503c","owner":{"login":"philrosenfield"},"description":"WWT WebClient Click Event" },{"description":"WWT WebClient Earth City Search","id":"46d2ebace646db016d7249d942b85569","sha":"46d2ebace646db016d7249d942b85569","owner":{"login":"philrosenfield"}},{"description":"WWT WebClient FOV","id":"935ea8244b5e7628824b5e2e428ec899","sha":"935ea8244b5e7628824b5e2e428ec899","owner":{"login":"philrosenfield"}},{"description":"WWT WebClient Local View","id":"8c7c38936d3a905d0dc26fe2dc9ca0f9","sha":"8c7c38936d3a905d0dc26fe2dc9ca0f9","owner":{"login":"philrosenfield"}},{"description":"WWT WebClient Mars Explorer","id":"b23f05efdea71aa382efee79a76b6b94","sha":"b23f05efdea71aa382efee79a76b6b94","owner":{"login":"philrosenfield"}},{"description":"WWT WebClient Poly","id":"ab13be544d0189a6571b892b231b401d","sha":"ab13be544d0189a6571b892b231b401d","owner":{"login":"philrosenfield"}},{"description":"WWT WebClient Simple","id":"0edd8e5e2f2e92ac27596204b3e47932","sha":"0edd8e5e2f2e92ac27596204b3e47932","owner":{"login":"philrosenfield"}},{"description":"WWT Webclient Images","id":"80344030734766655ebee946788169e7","sha":"80344030734766655ebee946788169e7","owner":{"login":"philrosenfield"}},
-{"description":"WWT Webclient Tours","id":"7c58348c5da096709d9ff65c0d4f6599","sha":"7c58348c5da096709d9ff65c0d4f6599","owner":{"login":"philrosenfield"}}]);
+render([{"id":"81d70d196ec5fbcc28f859905dce0978","sha":"81d70d196ec5fbcc28f859905dce0978","owner":{"login":"philrosenfield", "name": "WorldWide Telescope"},"description":"WWT WebClient Arrived"},
+{"id":"bed1c0a32430b914fbfcf98bd6c9503c","sha":"bed1c0a32430b914fbfcf98bd6c9503c","owner":{"login":"philrosenfield", "name": "WorldWide Telescope"},"description":"WWT WebClient Click Event" },
+{"description":"WWT WebClient Earth City Search","id":"46d2ebace646db016d7249d942b85569","sha":"46d2ebace646db016d7249d942b85569","owner":{"login":"philrosenfield", "name": "WorldWide Telescope"}},
+{"description":"WWT WebClient FOV","id":"935ea8244b5e7628824b5e2e428ec899","sha":"935ea8244b5e7628824b5e2e428ec899","owner":{"login":"philrosenfield", "name": "WorldWide Telescope"}},
+{"description":"WWT WebClient Local View","id":"8c7c38936d3a905d0dc26fe2dc9ca0f9","sha":"8c7c38936d3a905d0dc26fe2dc9ca0f9","owner":{"login":"philrosenfield", "name": "WorldWide Telescope"}},
+{"description":"WWT WebClient Mars Explorer","id":"b23f05efdea71aa382efee79a76b6b94","sha":"b23f05efdea71aa382efee79a76b6b94","owner":{"login":"philrosenfield", "name": "WorldWide Telescope"}},
+{"description":"WWT WebClient Poly","id":"ab13be544d0189a6571b892b231b401d","sha":"ab13be544d0189a6571b892b231b401d","owner":{"login":"philrosenfield", "name": "WorldWide Telescope"}},
+{"description":"WWT WebClient Simple","id":"0edd8e5e2f2e92ac27596204b3e47932","sha":"0edd8e5e2f2e92ac27596204b3e47932","owner":{"login":"philrosenfield", "name": "WorldWide Telescope"}},
+{"description":"WWT Webclient Images","id":"80344030734766655ebee946788169e7","sha":"80344030734766655ebee946788169e7","owner":{"login":"philrosenfield", "name": "WorldWide Telescope"}},
+{"description":"WWT Webclient Tours","id":"7c58348c5da096709d9ff65c0d4f6599","sha":"7c58348c5da096709d9ff65c0d4f6599","owner":{"login":"philrosenfield", "name": "WorldWide Telescope"}}]);
 
 function render(gists) {
   if (!gists.length) return;
@@ -49,7 +57,7 @@ function render(gists) {
 
   gist.append("div")
       .attr("class", "gist-author")
-      .text(function(d) { return d.owner.login; });
+      .text(function(d) { return d.owner.name; });
 }
 
 </script>
