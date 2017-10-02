@@ -1,14 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
-
-- [Welcome to GitHub Pages](#welcome-to-github-pages)
-  - [Markdown](#markdown)
-  - [Jekyll Themes](#jekyll-themes)
-  - [Support or Contact](#support-or-contact)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/philrosenfield/wwt-docs/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
