@@ -264,14 +264,11 @@ To see plans and instructions for building a planetarium suitable for a small cl
 | ![](planetariumimages/FinishedFour.jpg) |
 
 * * *
+# The Basics
 
 ## <a name="ScreenLayout">Screen Layout</a>
 
 The following image shows the first view that will appear on running WorldWide Telescope. This section describes the layout, and how it changes depending on the selections of the user.
-
-*   [The Top Panel](#TheTopPanel)
-*   [The View](#TheView)
-*   [The Lower Panel](#TheLowerPanel)
 
 | ![](./uiimages/ui_win_Opening-View.png) |
 
